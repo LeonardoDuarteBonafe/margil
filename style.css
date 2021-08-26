@@ -342,6 +342,7 @@ text-decoration: none;
     width: 100%;
     max-width: 1366px !important;
     height: 520px;
+    overflow: hidden;
 }
 
 .materiais .gallery-swiper .swiper-slide 
@@ -350,7 +351,8 @@ text-decoration: none;
     background-size: cover;
     width: 250px !important;
     height: 400px !important;
-    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0002);
+    /*-webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0002);*/
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(85%, transparent), to(rgba(255,255,255,0.2)));
     position: relative;
     display: flex !important;
     justify-content: center;
@@ -679,6 +681,138 @@ footer .info p{
     color: white !important;
 }
 
+.page-empresa .empresa{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.page-empresa .empresa .info{
+    display: flex;
+}
+
+.page-empresa .empresa .info .text{
+    width: 30%;
+    margin: 0 5%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.page-empresa .empresa .info .text h2{
+    font-family: cherolina;
+    font-size: 9rem;
+    color: var(--primary-color);
+}
+
+.page-empresa .empresa .info .text p{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.page-empresa .empresa .info .images{
+    width: 55%;
+    background-color: red;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-empresa .empresa .info .images .grande{
+    padding: 0 !important;
+    margin: 0 !Important;
+    margin-bottom: 20px !important;
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.page-empresa .empresa .info .images .grande div{
+    width: 100% !important;
+    height: 500px;
+    background-color: yellow;
+}
+
+.page-empresa .empresa .info .images .grande div img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.page-empresa .empresa .info .images .pequena{
+    width: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.page-empresa .empresa .info .images .pequena div{
+    width: 18%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.page-empresa .empresa .info .images .pequena div img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.page-materiais .material{
+    background-color: rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-materiais .material .box{
+    width: 250px;
+    height: 150px;
+    margin: 15px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.page-materiais .material .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
+
+.page-materiais .material .box p{
+    margin: 0;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.page-materiais .material .box:hover img{
+    filter: brightness(50%);
+}
+
+.page-materiais .material .box:hover p{
+    background-color: var(--primary-color);
+    background-color: transparent;
+    color: white;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
 @media only screen and (min-width: 576px) and (max-width: 800px)
 {
 
@@ -688,12 +822,12 @@ footer .info p{
     .title{
         height: 100px;
     }
-    
+
     header .language{
         height: 30px;
         padding-right: 10%;
     }
-    
+
     header nav{
         padding: 0 25px 0 35px;
         height: 100px;
@@ -943,7 +1077,7 @@ footer .info p{
         font-size: 4.5rem;
         text-align: center;
     }
-    
+
     #jazida-carousel .carousel-inner .carousel-item .box div:last-child p{
         font-size: 0.95rem;
         text-align: center;
@@ -1234,8 +1368,8 @@ footer .info p{
     #jazida-carousel .carousel-inner .carousel-item .box div:last-child{
         right: 30px;
     }
-    
-    
+
+
 
     #jazida-carousel .carousel-inner .carousel-item .box div:last-child h3{
         font-size: 5rem;
