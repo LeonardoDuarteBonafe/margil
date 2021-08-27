@@ -34,25 +34,25 @@
                 </div>
                 <div class="images">
                     <div class="grande">
-                        <div>
+                        <div id="1">
                             <img src="Images/Empresa/Galeria/1.png">
                         </div>
                     </div>
                     <div class="pequena">
-                        <div>
-                            <img src="Images/Empresa/Galeria/1.png">
+                        <div id="2">
+                            <img src="Images/Empresa/Galeria/2.png">
                         </div>
-                        <div>
-                            <img src="Images/Empresa/Galeria/1.png">
+                        <div id="3">
+                            <img src="Images/Empresa/Galeria/3.png">
                         </div>
-                        <div>
-                            <img src="Images/Empresa/Galeria/1.png">
+                        <div id="4">
+                            <img src="Images/Empresa/Galeria/4.png">
                         </div>
-                        <div>
-                            <img src="Images/Empresa/Galeria/1.png">
+                        <div id="5">
+                            <img src="Images/Empresa/Galeria/5.png">
                         </div>
-                        <div>
-                            <img src="Images/Empresa/Galeria/1.png">
+                        <div id="6">
+                            <img src="Images/Empresa/Galeria/6.png">
                         </div>
                     </div>
                 </div>
