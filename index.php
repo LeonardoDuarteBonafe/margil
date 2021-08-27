@@ -17,45 +17,10 @@
 
 
     <body>
-        <!--<h1 class="animate__animated animate__bounce animate__infinite animate__delay-2s teste">An animated element</h1>-->
 
-        <!--<header>
-<a href="#" class="logo">logo</a>
-<div class="toggleMenu">
-<span></span>
-</div>
-<ul class="navigation">
-<li><a href="#">HOME</a></li>
-<li><a href="#">EMPRESA</a></li>
-<li><a href="#">MATERIAIS</a></li>
-<li><a href="#jazidas">JAZIDAS</a></li>
-<li><a href="#obras">OBRAS</a></li>
-<li><a href="#contato">CONTATO</a></li>
-</ul>
-</header>-->
-        <header>
-            <div class="language">
-                <a href="#">ENG</a>
-                <a href="#">POR</a>
-            </div>
-            <nav>
-                <a class="logo" href="index.html">
-                    <img src="Images/Navbar/logo.png"></a>
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-                <ul class="nav-list">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="empresa.html">EMPRESA</a></li>
-                    <li><a href="materiais.html">MATERIAIS</a></li>
-                    <li><a href="#jazidas">JAZIDAS</a></li>
-                    <!--<li><a href="#contato">OBRAS</a></li>-->
-                    <li><a href="#contato">CONTATO</a></li>
-                </ul>
-            </nav>
-        </header>
+        <?php 
+        include 'php/navbar.html';
+        ?>
 
         <div id="top-carousel" class="carousel vert slide" data-ride="carousel" data-interval="1000" data-pause="false">
             <ol class="carousel-indicators">
@@ -281,59 +246,10 @@ OBRAS REALIZADAS
 </div>
 </div>
 -->
-
-        <!--formulario-->
-        <div class="contato row d-flex justify-content-center" id="contato">
-            <div class="col-9">
-                <h2 class="title">
-                    CONTATO
-                </h2>
-                <div class="form row">
-                    <div class="col-12 col-sm-6">
-                        <input class= "form-text" type="text" name="nome" id="nome" placeholder="NOME">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <input class= "form-text" type="text" name="email" id="email" placeholder="EMAIL">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <input class= "form-text" type="text" name="telefone" id="telefone" placeholder="TELEFONE">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <input class= "form-text" type="text" name="empresa" id="empresa" placeholder="EMPRESA">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <input class= "form-text" type="text" name="cidade" id="cidade" placeholder="CIDADE">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <input class= "form-text" type="text" name="estado" id="estado" placeholder="ESTADO">
-                    </div>
-                    <div class="col-12">
-                        <textarea class= "form-text" type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" rows="5"></textarea>
-                    </div>
-                    <div class="col-12 btn-form">
-                        <button class="buttonEmail" type="button">ENVIAR</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!--footer-->
-        <footer>
-            <div class="logo">
-                <a href="#" ><img src="Images/Footer/logo.png"></a>
-            </div>
-            <div class="info">
-                <p>
-                    RODOVIA BR 101 SUL - KM 421 • INDEPENDÊNCIA <br>
-                    ATÍLIO VIVACQUA - ES. BRASIL
-                </p>
-                <p>
-                    TEL: +55 28 3538-5100 • +55 28 99918-7924 <br>
-                    E-MAIL: MARGIL@MARGILGRANITOS.COM.BR <br>
-                    © 2021 MARGIL GRANITOS
-                </p>
-            </div>
-        </footer>
+        <?php
+        include 'php/form.html';
+        include 'php/footer.html';
+        ?>
 
     </body>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
