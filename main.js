@@ -74,21 +74,27 @@ window.addEventListener("DOMContentLoaded", function () {
 
     $('.page-empresa .empresa .images .pequena div').click(function(){
         console.log("id: " + $(this).attr('id'));
-        
+
         var imageUrl = "Images/Empresa/Galeria/";   
         var imageGrandeId = $('.page-empresa .empresa .images .grande div').attr('id');
         var imageClicadaId = $(this).attr('id');
-        
+
         $('.page-empresa .empresa .images .grande div img').attr('src', imageUrl + imageClicadaId + ".png");
-        
+
+        $('.page-empresa .empresa .images .grande div ').addClass('page-empresa-active');
+        $('.page-empresa .empresa .images .grande div ').on("animationend", function(){
+            $(this).removeClass('page-empresa-active');
+        });
+
         $('.page-empresa .empresa .images .grande div').attr('id', imageClicadaId);
-        
+
         $(this).attr('id', imageGrandeId);
         $(this).children("img").attr('src', imageUrl + imageGrandeId + ".png");
-        
+
+
         /*$('.page-empresa .empresa .images .grande div img').attr('src', "Images/Empresa/Galeria/" + $(this).attr('id') + ".png");
         $('.page-empresa .empresa .images .grande div').attr('id', $(this).attr('id'));
-        
+
         $('.page-empresa .empresa .images .pequena div img').attr('src', "Images/Empresa/Galeria/" + $('.page-empresa .empresa .images .grande div').attr('id') + ".png");
         $('.page-empresa .empresa .images .pequena div').attr('id', $('.page-empresa .empresa .images .grande div').attr('id'))*/;
     });
