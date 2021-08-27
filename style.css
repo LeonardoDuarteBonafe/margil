@@ -682,7 +682,7 @@ footer .info p{
 }
 
 .page-empresa .empresa{
-    background-color: rgba(0,0,0,0.1);
+    /background-color: rgba(0,0,0,0.1);
 }
 
 .page-empresa .empresa .info{
@@ -711,7 +711,7 @@ footer .info p{
 
 .page-empresa .empresa .info .images{
     width: 55%;
-    background-color: red;
+    /background-color: red;
     margin-right: 5%;
     display: flex;
     flex-direction: column;
@@ -724,14 +724,14 @@ footer .info p{
     margin-bottom: 20px !important;
     width: 100%;
     height: auto;
-    background-color: blue;
+    /background-color: blue;
     overflow: hidden;
 }
 
 .page-empresa .empresa .info .images .grande div{
     width: 100% !important;
     height: 500px;
-    background-color: yellow;
+    /background-color: yellow;
 }
 
 .page-empresa .empresa .info .images .grande div img{
@@ -742,7 +742,7 @@ footer .info p{
 
 .page-empresa .empresa .info .images .pequena{
     width: 100%;
-    background-color: green;
+    /background-color: green;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -761,7 +761,7 @@ footer .info p{
 }
 
 .page-materiais .material{
-    background-color: rgba(0,0,0,0.05);
+    /background-color: rgba(0,0,0,0.05);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -893,6 +893,55 @@ footer .info p{
             opacity: 1;
             transform: translateX(0px);
         }
+    }
+
+    .page-empresa .empresa .info{
+        flex-direction: column;
+    }
+
+    .page-empresa .empresa .info .text{
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .page-empresa .empresa .info .images{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 575px){
+
+    .page-empresa .empresa .info .text h2{
+        font-size: 7rem;
+    }
+
+    .page-empresa .empresa .info .text p{
+        font-size: 1.0rem;
+    }
+
+    .page-empresa .empresa .info .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .page-empresa .empresa .info .images .grande div{
+        height: 300px;
+        padding: 0 1.5%;
+    }
+    
+    .page-empresa .empresa .info .images .pequena{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .page-empresa .empresa .info .images .pequena div{
+        width: 30%;
+        height: auto;
+        max-height: 100px;
+        margin: 5px 1.5%;
     }
 }
 
