@@ -153,7 +153,6 @@
                 </a>
                 <a href="Images/Materiais/White-Persa/close.webp" data-lightbox="galeriaWhitePersa" data-title="Close"></a>
             </div>
-
         </div>
 
         <?php

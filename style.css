@@ -85,7 +85,6 @@ header nav{
     justify-content: space-between;
     padding: 0 50px 0 70px;
     align-items: center;
-    /background: #23232e;
     background: white;
     height: 150px;
 }
@@ -134,40 +133,6 @@ header nav .mobile-menu div{
     transition: 0.3s;
 }
 
-/*header{
-background-color: burlywood;
-width: 100%;
-padding: 40px 100px;
-display: flex !important;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-}
-
-header .logo{
-background-color: blue;
-font-size: 2rem;
-color: #fff;
-font-weight: 700;
-text-transform: uppercase;
-text-decoration: none;
-}
-
-header .navigation{
-display: flex;
-background-color: yellow;
-}
-
-header .navigation li{
-list-style: none;
-}
-
-header .navigation li a{
-color: #fff;
-margin-left: 40px;
-text-decoration: none;
-}*/
-
 .vert .carousel-item-next,
 .vert .active.carousel-item-right {
     -webkit-transform: translate3d(0, 100%, 0);
@@ -197,12 +162,10 @@ text-decoration: none;
 #top-carousel{
     width: 100% !important;
     z-index: 2;
-    /padding-top: 190px;
     padding-top: var(--offset-navbar);
 }
 
 .carousel-indicators{
-    /background-color: green !important;
     width: 40px;;
     margin: 0 !important;
     display: flex;
@@ -218,7 +181,6 @@ text-decoration: none;
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    /background-color: purple;
 }
 
 #top-carousel .carousel-inner .carousel-item{
@@ -240,7 +202,6 @@ text-decoration: none;
 }
 
 #top-carousel-info .carousel-indicators{
-    /background-color: blue !important;
     bottom: 30px;
     right: 0;
     left: inherit;
@@ -259,7 +220,6 @@ text-decoration: none;
 #top-carousel-info .carousel-inner .carousel-item .box{
     display: flex;
     align-items: flex-end;
-    /background-color: aqua;
     height: 100%;
     padding: 0 20px 0 60px;
 }
@@ -283,7 +243,6 @@ text-decoration: none;
     padding-left: 20px;
     font-size: 1.13rem;
     line-height: 20px;
-    /background-color: red;
     margin: 0 !Important;
     text-align: left;
     text-transform: uppercase;
@@ -325,7 +284,6 @@ text-decoration: none;
 
 
 .title{
-    /background-color: aquamarine;
     color: var(--primary-color);
     width: 100%;
     height: 150px;
@@ -352,7 +310,6 @@ text-decoration: none;
     background-size: cover;
     width: 250px !important;
     height: 400px !important;
-    /*-webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0002);*/
     -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(85%, transparent), to(rgba(255,255,255,0.2)));
     position: relative;
     display: flex !important;
@@ -383,7 +340,6 @@ text-decoration: none;
     color: white;
     bottom: 0;
     font-size: 2rem;
-    /background-color: red;
 }
 
 .materiais .gallery-swiper .swiper-slide:hover p{
@@ -397,19 +353,11 @@ text-decoration: none;
     transform: scale(1.1);
 }
 
-/*.jazidas{
-display: flex;
-flex-direction: column;
-align-items: center;
-}*/
-
 #jazida-carousel{
     height: 550px;
-    /background-color: blueviolet;
 }
 
 #jazida-carousel .carousel-indicators{
-    /background-color: blue !important;
     bottom: 200px;
     right: 0;
     left: inherit;
@@ -427,13 +375,11 @@ align-items: center;
 #jazida-carousel .carousel-inner .carousel-item .box{
     display: flex;
     height: 100%;
-    /background-color: aqua;
     z-index: 5;
 }
 
 #jazida-carousel .carousel-inner .carousel-item .box div:first-child{
     clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
-    /background-color: yellow;
     flex: 1 100%;
     height: 100%;
 }
@@ -451,7 +397,6 @@ align-items: center;
     position: relative;
     right: 50px;
     flex: 1 60%;
-    /background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -486,13 +431,6 @@ align-items: center;
     transform: translateX(50px);
 }
 
-
-/*#jazida-carousel .carousel-inner .carousel-item.active.carousel-item-left .box,
-#jazida-carousel .carousel-inner .carousel-item.active.carousel-item-right .box{
-opacity: 0;
-transition: 0.3s;
-}*/
-
 #jazida-carousel .carousel-inner .carousel-item.active .box div:first-child img{
     opacity: 1;
     transform: translateX(0);
@@ -511,91 +449,11 @@ transition: 0.3s;
     transition-delay: 0.9s;
 }
 
-/*obras realizadas*/
-.obras{
-    padding: 0 20px 0 10px;
-    display: flex;
-    flex-wrap: wrap;
-    /background-color: red;
-}
-
-.obras .box{
-    position: relative;
-    height: 250px;
-    overflow: hidden;
-    background-color: aqua;
-}
-.obras .box img{
-    object-fit: cover !important;
-    object-position: center center !important;
-    width: 100%;
-    height: 100%;
-    margin: 10px 0 0 10px;;
-    transition: 1s;
-    cursor: pointer;
-    /filter: brightness(70%);
-}
-
-.obras .box img:hover{
-    width: 110%;
-    /opacity: 0.7;
-    transition: 1s;
-    filter: brightness(70%);
-}
-
-.obras .box p{
-    text-transform: uppercase;
-    font-size: 2rem;
-    color: white;
-    margin: 5px 20px;;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    cursor: pointer;
-
-    opacity: 0;
-    transform: translateY(20px);
-    transition: 0.5s;
-}
-
-.obras .box:hover p{
-    opacity: 1;
-    transform: translateY(0px);
-    /transition-delay: 0.3s;
-}
-
-.obras .box:nth-child(1),
-.obras .box:nth-child(3){
-    width: 22%;
-}
-
-.obras .box:nth-child(2),
-.obras .box:nth-child(4),
-.obras .box:nth-child(7){
-    width: 28%;
-}
-
-.obras .box:nth-child(5),
-.obras .box:nth-child(6),
-.obras .box:nth-child(8){
-    width: 24%;
-}
-
-/*contato*/
-/*.contato .form div{
-background-color: red;
-margin: 0 5px;
-}*/
-
 .contato{
     padding: 0 !important;
     margin: 0 !important;
     padding-bottom: 70px !important;
     width: 100%;
-}
-
-.contato .form{
-    /background-color: coral;
 }
 
 .contato .form div{
@@ -632,7 +490,6 @@ margin: 0 5px;
 
 .contato .form .btn-form{
     width: 100%;
-    /background-color: blue;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -641,7 +498,6 @@ margin: 0 5px;
 }
 
 .contato .form .btn-form button{
-    /background-color: red;
     width: 100px;
     height: 100%;
     font-size: 1.3rem;
@@ -695,8 +551,6 @@ footer .info p{
 
 .page-empresa .empresa{
     padding-top: var(--offset-navbar);
-    /background-color: rgba(0,0,0,0.1);
-    /background-color: green;
 }
 
 .page-empresa .empresa .info{
@@ -725,7 +579,6 @@ footer .info p{
 
 .page-empresa .empresa .info .images{
     width: 55%;
-    /background-color: red;
     margin-right: 5%;
     display: flex;
     flex-direction: column;
@@ -738,14 +591,12 @@ footer .info p{
     margin-bottom: 20px !important;
     width: 100%;
     height: auto;
-    /background-color: blue;
     overflow: hidden;
 }
 
 .page-empresa .empresa .info .images .grande div{
     width: 100% !important;
     height: 500px;
-    /background-color: yellow;
 }
 
 .page-empresa .empresa .info .images .grande div img{
@@ -756,7 +607,6 @@ footer .info p{
 
 .page-empresa .empresa .info .images .pequena{
     width: 100%;
-    /background-color: green;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -778,17 +628,6 @@ footer .info p{
     animation: openImage 0.5s forwards;
 }
 
-/*.page-empresa-active{
-/animation: openImage 1s forwards;
-animation: mymove 5s infinite;
-}
-@keyframes mymove {
-0%   {top: 0px;}
-25%  {top: 200px;}
-75%  {top: 50px}
-100% {top: 100px;}
-}*/
-
 @keyframes openImage {
     from {
         opacity: 0;
@@ -800,7 +639,6 @@ animation: mymove 5s infinite;
 
 .page-materiais .material{
     padding-top: var(--offset-navbar);
-    /background-color: rgba(0,0,0,0.05);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -888,7 +726,6 @@ animation: mymove 5s infinite;
         width: 300px;
         height: 250px;
         padding: 0 !Important;
-        /background: #23232e;
         background: white;
         z-index: 100;
         flex-direction: column;
@@ -1040,7 +877,6 @@ animation: mymove 5s infinite;
     }
 
     #top-carousel-info .carousel-indicators{
-        /background-color: blue !important;
         bottom: 30px;
         right: 0;
         left: inherit;
@@ -1071,7 +907,6 @@ animation: mymove 5s infinite;
         padding-left: 5%;
         font-size: 1rem;
         line-height: normal;
-        /background-color: red;
         margin-top: 10px !important;
         margin-bottom: 10px !important;
         height: 100%;
@@ -1105,7 +940,6 @@ animation: mymove 5s infinite;
         color: white;
         bottom: 0;
         font-size: 2rem;
-        /background-color: red;
     }
 
     .materiais .gallery-swiper .swiper-slide-active.gallery-banner img{
@@ -1120,12 +954,6 @@ animation: mymove 5s infinite;
     .materiais .gallery-swiper .swiper-slide:hover img{
         box-shadow: none;
     }
-
-    /*.jazidas{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}*/
 
     #jazida-carousel{
         height: 350px;
@@ -1287,12 +1115,6 @@ animation: mymove 5s infinite;
         font-size: 1.6rem !important;
     }
 
-    /*.jazidas{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}*/
-
     #jazida-carousel{
         height: 400px;
         background-color: transparent;
@@ -1372,7 +1194,6 @@ animation: mymove 5s infinite;
     }
 
     .carousel-indicators{
-        /background-color: green !important;
         width: 35px;;
     }
 
@@ -1398,7 +1219,6 @@ animation: mymove 5s infinite;
     }
 
     #top-carousel-info .carousel-indicators{
-        /background-color: blue !important;
         bottom: 20px;
         margin-top: -0px !Important;
     }
@@ -1443,7 +1263,6 @@ animation: mymove 5s infinite;
         color: white;
         bottom: 0;
         font-size: 1.8rem;
-        /background-color: red;
     }
 
     .materiais .gallery-swiper .swiper-slide:hover p{
@@ -1455,19 +1274,12 @@ animation: mymove 5s infinite;
         box-shadow: 20px 30px 50px #999;
     }
 
-    /*.jazidas{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}*/
-
     #jazida-carousel{
         height: 400px;
         background-color: transparent;
     }
 
     #jazida-carousel .carousel-indicators{
-        /background-color: blue !important;
         bottom: 100px;
     }
 

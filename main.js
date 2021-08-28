@@ -1,17 +1,10 @@
 window.addEventListener("DOMContentLoaded", function () {
-    /*$('.mobile-menu').click(function(){
-        const mobileMenu = document.querySelector('.mobile-menu');
-        const navList = document.querySelector('.nav-list');
-        navList.classList.toggle('active');
-    });*/
-
     class MobileNavbar{
         constructor(mobileMenu, navList, navLinks){
             this.mobileMenu = document.querySelector(mobileMenu);
             this.navList = document.querySelector(navList);
             this.navLinks = document.querySelectorAll(navLinks);
             this.activeClass = "active";
-
             this.handleClick = this.handleClick.bind(this);
         }
 
@@ -46,9 +39,6 @@ window.addEventListener("DOMContentLoaded", function () {
 
     mobileNavbar.init();
 
-    /*function menuToggle(){
-    }*/
-
     var gallery_swiper = new Swiper(".gallery-swiper", {
         effect: "coverflow",
         centeredSlides: true,
@@ -74,7 +64,6 @@ window.addEventListener("DOMContentLoaded", function () {
     });
 
     $('.gallery-banner').click(function(){
-        //console.log("clicado: " + $(this).attr('id'));
         localStorage.setItem("nameMaterial", $(this).attr('id'));
         localStorage.setItem("clickedMaterial", "true");
         window.location.href = "materiais.php";
@@ -85,8 +74,6 @@ window.addEventListener("DOMContentLoaded", function () {
         if($('body').is('.page-materiais')){
             var nameMaterial = localStorage.getItem("nameMaterial");
             var clickedMaterial = localStorage.getItem("clickedMaterial");
-            /*console.log("nome: " + nameMaterial);
-            console.log("clicked: " + clickedMaterial);*/
             if(clickedMaterial == "true"){
                 jQuery(function(){
                     jQuery('#' + nameMaterial).children("a").children("img").click();
@@ -96,11 +83,7 @@ window.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-
-
     $('.page-empresa .empresa .images .pequena div').click(function(){
-        console.log("id: " + $(this).attr('id'));
-
         var imageUrl = "Images/Empresa/Galeria/";   
         var imageGrandeId = $('.page-empresa .empresa .images .grande div').attr('id');
         var imageClicadaId = $(this).attr('id');
@@ -116,13 +99,6 @@ window.addEventListener("DOMContentLoaded", function () {
 
         $(this).attr('id', imageGrandeId);
         $(this).children("img").attr('src', imageUrl + imageGrandeId + ".webp");
-
-
-        /*$('.page-empresa .empresa .images .grande div img').attr('src', "Images/Empresa/Galeria/" + $(this).attr('id') + ".png");
-        $('.page-empresa .empresa .images .grande div').attr('id', $(this).attr('id'));
-
-        $('.page-empresa .empresa .images .pequena div img').attr('src', "Images/Empresa/Galeria/" + $('.page-empresa .empresa .images .grande div').attr('id') + ".png");
-        $('.page-empresa .empresa .images .pequena div').attr('id', $('.page-empresa .empresa .images .grande div').attr('id'))*/;
     });
 
     $('.buttonEmail').click(function(){
@@ -131,7 +107,6 @@ window.addEventListener("DOMContentLoaded", function () {
 
     function getFormInfos(){
         var emailMessage = "";
-
         var nome = document.querySelector('#nome').value;
         var email = document.querySelector('#email').value;
         var telefone = document.querySelector('#telefone').value;

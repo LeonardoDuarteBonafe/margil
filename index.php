@@ -237,48 +237,6 @@
                 </div>
             </div>
         </div>
-
-        <!--obras realizadas-->
-        <!--<div class="obras-realizadas" id="obras">
-<h2 class="title">
-OBRAS REALIZADAS
-</h2>
-<div class="obras">
-<div class="box">
-<img src="Images/Obras/Sem%20t%C3%ADtulo-1_Prancheta%201.png">
-<p>Travertino</p>
-</div>
-<div class="box">
-<img src="Images/Obras/Sem%20t%C3%ADtulo-1_Prancheta%201.png">
-<p>Travertino</p>
-</div>
-<div class="box">
-<img src="Images/Obras/Sem%20t%C3%ADtulo-1_Prancheta%201.png">
-<p>Travertino</p>
-</div>
-<div class="box">
-<img src="Images/Obras/Sem%20t%C3%ADtulo-1_Prancheta%201.png">
-<p>Travertino</p>
-</div>
-<div class="box">
-<img src="Images/Obras/Sem%20t%C3%ADtulo-1_Prancheta%201.png">
-<p>Travertino</p>
-</div>
-<div class="box">
-<img src="Images/Obras/Sem%20t%C3%ADtulo-1_Prancheta%201.png">
-<p>Travertino</p>
-</div>
-<div class="box">
-<img src="Images/Obras/Sem%20t%C3%ADtulo-1_Prancheta%201.png">
-<p>Travertino</p>
-</div>
-<div class="box">
-<img src="Images/Obras/Sem%20t%C3%ADtulo-1_Prancheta%201.png">
-<p>Travertino</p>
-</div>
-</div>
-</div>
--->
         <?php
         include 'php/form.html';
         include 'php/footer.html';
