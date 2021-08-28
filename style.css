@@ -658,6 +658,11 @@ margin: 0 5px;
     transition: 0.5s;
 }
 
+.form-required::-webkit-input-placeholder{
+    color: red !important;
+    opacity: 0.8;
+}
+
 footer{
     background-color: var(--primary-color);
     color: white;

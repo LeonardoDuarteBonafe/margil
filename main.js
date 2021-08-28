@@ -66,7 +66,7 @@ window.addEventListener("DOMContentLoaded", function () {
             disableOnInteraction: false,
         },
     });
-    
+
     $(function(){
         if($('body').is('.page-index')){
             localStorage.setItem("clickedMaterial", "false");
@@ -80,7 +80,7 @@ window.addEventListener("DOMContentLoaded", function () {
         window.location.href = "materiais.php";
 
     });
-    
+
     $(function(){
         if($('body').is('.page-materiais')){
             var nameMaterial = localStorage.getItem("nameMaterial");
@@ -95,8 +95,8 @@ window.addEventListener("DOMContentLoaded", function () {
             }
         }
     });
-    
-    
+
+
 
     $('.page-empresa .empresa .images .pequena div').click(function(){
         console.log("id: " + $(this).attr('id'));
@@ -124,7 +124,7 @@ window.addEventListener("DOMContentLoaded", function () {
         $('.page-empresa .empresa .images .pequena div img').attr('src', "Images/Empresa/Galeria/" + $('.page-empresa .empresa .images .grande div').attr('id') + ".png");
         $('.page-empresa .empresa .images .pequena div').attr('id', $('.page-empresa .empresa .images .grande div').attr('id'))*/;
     });
-    
+
     $('.buttonEmail').click(function(){
         getFormInfos();
     });
@@ -148,8 +148,17 @@ window.addEventListener("DOMContentLoaded", function () {
         emailMessage += "Estado: " + estado + ". <br>";
         emailMessage += "Mensagem: " + mensagem + ". <br>";
         if(nome === "" || email === ""){
-            document.getElementsByName('nome')[0].placeholder='Please insert your NAME!';
-            document.getElementsByName('email')[0].placeholder='Please insert your EMAIL!';
+            var pageLanguage = localStorage.getItem("language");
+            if(pageLanguage == "eng"){
+                document.getElementsByName('nome')[0].placeholder='Please insert your NAME!';
+                document.getElementsByName('email')[0].placeholder='Please insert your EMAIL!';
+            }
+            else{
+                document.getElementsByName('nome')[0].placeholder='Por favor, insira seu NOME!';
+                document.getElementsByName('email')[0].placeholder='Por favor, insira seu EMAIL!';
+            }
+            $('.form-nome').addClass('form-required');
+            $('.form-email').addClass('form-required');
         }
         else{
             sendEmail(nome, email, emailMessage);
@@ -163,7 +172,7 @@ window.addEventListener("DOMContentLoaded", function () {
             Password: "jzkocqnlqfdoeuhr",
             To: `${email}`,
             From: 'ldbmaildealer@gmail.com',
-            Subject: `${name} has interest in your product`,
+            Subject: `${name} tem interesse no seu produto!`,
             Body: `${message}`,
         }).then(function(message){
             var pageLanguage = localStorage.getItem("language");
