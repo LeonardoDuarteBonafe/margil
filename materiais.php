@@ -32,12 +32,16 @@
             <div class="box" id="Amarelo-Capri">
                 <a href="Images/Materiais/Amarelo-Capri/Amarelo-Capri.png" data-lightbox="galeriaAmareloCapri" data-title="Amarelo Capri">
                     <img src="Images/Materiais/Amarelo-Capri/Amarelo-Capri.png">
-                    <p>Amarelo Capri</p></a>
+                    <p>Amarelo Capri</p>
+                </a>
                 <a href="Images/Materiais/Amarelo-Capri/close.png" data-lightbox="galeriaAmareloCapri" data-title="Close"></a>
             </div>
             <div class="box" id="Amarelo-Maracuja">
-                <img src="Images/Materiais/Amarelo-Maracuja/Amarelo-Maracuja.png">
-                <p>Amarelo Maracuja</p>
+                <a href="Images/Materiais/Amarelo-Maracuja/Amarelo-Maracuja.png" data-lightbox="galeriaAmareloMaracuja" data-title="Amarelo Maracuja">
+                    <img src="Images/Materiais/Amarelo-Maracuja/Amarelo-Maracuja.png">
+                    <p>Amarelo Maracuja</p>
+                </a>
+                <a href="Images/Materiais/Amarelo-Maracuja/close.png" data-lightbox="galeriaAmareloMaracuja" data-title="Close"></a>
             </div>
             <div class="box" id="Amarelo-Ornamental-G">
                 <img src="Images/Materiais/Amarelo-Ornamental-G/Amarelo-Ornamental-G.png">

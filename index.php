@@ -18,7 +18,7 @@
     <link rel="icon" href="Images/Site-Icon/site-icon.png">
     <title>Margil Granitos</title>
 
-    <body>
+    <body class="page-index">
 
         <?php 
         include 'php/navbar.html';

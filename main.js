@@ -66,10 +66,34 @@ window.addEventListener("DOMContentLoaded", function () {
             disableOnInteraction: false,
         },
     });
+    
+    $(function(){
+        if($('body').is('.page-index')){
+            localStorage.setItem("clickedMaterial", "false");
+        }
+    });
 
     $('.gallery-banner').click(function(){
-        console.log("clicado: " + $(this).attr('id'));
+        //console.log("clicado: " + $(this).attr('id'));
+        localStorage.setItem("nameMaterial", $(this).attr('id'));
+        localStorage.setItem("clickedMaterial", "true");
+        window.location.href = "materiais.php";
 
+    });
+    
+    $(function(){
+        if($('body').is('.page-materiais')){
+            var nameMaterial = localStorage.getItem("nameMaterial");
+            var clickedMaterial = localStorage.getItem("clickedMaterial");
+            /*console.log("nome: " + nameMaterial);
+            console.log("clicked: " + clickedMaterial);*/
+            if(clickedMaterial == "true"){
+                jQuery(function(){
+                    jQuery('#' + nameMaterial).children("a").children("img").click();
+                    localStorage.setItem("clickedMaterial", "false");
+                });
+            }
+        }
     });
 
     $('.page-empresa .empresa .images .pequena div').click(function(){
