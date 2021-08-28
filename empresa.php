@@ -15,6 +15,8 @@
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
+    <link rel="icon" href="Images/Site-Icon/site-icon.png">
+    <title>Margil Granitos</title>
 
     <body class="page-empresa">
         <?php

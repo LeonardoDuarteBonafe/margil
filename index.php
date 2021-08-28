@@ -15,6 +15,8 @@
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
+    <link rel="icon" href="Images/Site-Icon/site-icon.png">
+    <title>Margil Granitos</title>
 
     <body>
 
@@ -101,17 +103,17 @@
                         <img src="Images/Index/Swiper/Amarelo-Capri.png">
                         <p>Amarelo Capri</p>
                     </div>
-                    
+
                     <div class="swiper-slide gallery-banner" id="Amarelo-Maracuja">
                         <img src="Images/Index/Swiper/Amarelo-Maracuja.png">
                         <p>Amarelo Maracuja</p>
                     </div>
-                    
+
                     <div class="swiper-slide gallery-banner" id="Amarelo-Ornamental-G">
                         <img src="Images/Index/Swiper/Amarelo-Ornamental-G.png">
                         <p>Amarelo Ornamental G</p>
                     </div>
-                    
+
                     <div class="swiper-slide gallery-banner" id="Amarelo-Ornamental-VL">
                         <img src="Images/Index/Swiper/Amarelo-Ornamental-VL.png">
                         <p>Amarelo Ornamental VL</p>
