@@ -14,6 +14,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <link rel="icon" href="Images/Site-Icon/site-icon.png">
     <title>Margil Granitos</title>

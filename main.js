@@ -95,6 +95,8 @@ window.addEventListener("DOMContentLoaded", function () {
             }
         }
     });
+    
+    
 
     $('.page-empresa .empresa .images .pequena div').click(function(){
         console.log("id: " + $(this).attr('id'));
@@ -122,25 +124,35 @@ window.addEventListener("DOMContentLoaded", function () {
         $('.page-empresa .empresa .images .pequena div img').attr('src', "Images/Empresa/Galeria/" + $('.page-empresa .empresa .images .grande div').attr('id') + ".png");
         $('.page-empresa .empresa .images .pequena div').attr('id', $('.page-empresa .empresa .images .grande div').attr('id'))*/;
     });
+    
+    $('.buttonEmail').click(function(){
+        getFormInfos();
+    });
 
     function getFormInfos(){
         var emailMessage = "";
 
-        var name = document.querySelector('#name').value;
+        var nome = document.querySelector('#nome').value;
         var email = document.querySelector('#email').value;
-        var phone = document.querySelector('#phone').value;
-        var message = document.querySelector('#message').value;
+        var telefone = document.querySelector('#telefone').value;
+        var empresa = document.querySelector('#empresa').value;
+        var cidade = document.querySelector('#cidade').value;
+        var estado = document.querySelector('#estado').value;
+        var mensagem = document.querySelector('#mensagem').value;
 
-        emailMessage += "Name: " + name + ". <br>";
+        emailMessage += "Nome: " + nome + ". <br>";
         emailMessage += "Email: " + email + ". <br>";
-        emailMessage += "Phone: " + phone + ". <br>";
-        emailMessage += "Message: " + message + ". <br>";
-        if(name === "" || email === ""){
-            document.getElementsByName('name')[0].placeholder='Please insert your NAME!';
+        emailMessage += "Telefone: " + telefone + ". <br>";
+        emailMessage += "Empresa: " + empresa + ". <br>";
+        emailMessage += "Cidade: " + cidade + ". <br>";
+        emailMessage += "Estado: " + estado + ". <br>";
+        emailMessage += "Mensagem: " + mensagem + ". <br>";
+        if(nome === "" || email === ""){
+            document.getElementsByName('nome')[0].placeholder='Please insert your NAME!';
             document.getElementsByName('email')[0].placeholder='Please insert your EMAIL!';
         }
         else{
-            sendEmail(name, email, emailMessage);
+            sendEmail(nome, email, emailMessage);
         }
     }
 
