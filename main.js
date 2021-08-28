@@ -105,7 +105,7 @@ window.addEventListener("DOMContentLoaded", function () {
         var imageGrandeId = $('.page-empresa .empresa .images .grande div').attr('id');
         var imageClicadaId = $(this).attr('id');
 
-        $('.page-empresa .empresa .images .grande div img').attr('src', imageUrl + imageClicadaId + ".png");
+        $('.page-empresa .empresa .images .grande div img').attr('src', imageUrl + imageClicadaId + ".webp");
 
         $('.page-empresa .empresa .images .grande div ').addClass('page-empresa-active');
         $('.page-empresa .empresa .images .grande div ').on("animationend", function(){
@@ -115,7 +115,7 @@ window.addEventListener("DOMContentLoaded", function () {
         $('.page-empresa .empresa .images .grande div').attr('id', imageClicadaId);
 
         $(this).attr('id', imageGrandeId);
-        $(this).children("img").attr('src', imageUrl + imageGrandeId + ".png");
+        $(this).children("img").attr('src', imageUrl + imageGrandeId + ".webp");
 
 
         /*$('.page-empresa .empresa .images .grande div img').attr('src', "Images/Empresa/Galeria/" + $(this).attr('id') + ".png");

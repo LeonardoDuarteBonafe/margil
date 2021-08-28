@@ -17,7 +17,7 @@
     
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-    <link rel="icon" href="Images/Site-Icon/site-icon.png">
+    <link rel="icon" href="Images/Site-Icon/site-icon.webp">
     <title>Margil Granitos</title>
 
     <body class="page-empresa">
@@ -39,24 +39,24 @@
                 <div class="images">
                     <div class="grande">
                         <div id="1">
-                            <img src="Images/Empresa/Galeria/1.png">
+                            <img src="Images/Empresa/Galeria/1.webp">
                         </div>
                     </div>
                     <div class="pequena">
                         <div id="2">
-                            <img src="Images/Empresa/Galeria/2.png">
+                            <img src="Images/Empresa/Galeria/2.webp">
                         </div>
                         <div id="3">
-                            <img src="Images/Empresa/Galeria/3.png">
+                            <img src="Images/Empresa/Galeria/3.webp">
                         </div>
                         <div id="4">
-                            <img src="Images/Empresa/Galeria/4.png">
+                            <img src="Images/Empresa/Galeria/4.webp">
                         </div>
                         <div id="5">
-                            <img src="Images/Empresa/Galeria/5.png">
+                            <img src="Images/Empresa/Galeria/5.webp">
                         </div>
                         <div id="6">
-                            <img src="Images/Empresa/Galeria/6.png">
+                            <img src="Images/Empresa/Galeria/6.webp">
                         </div>
                     </div>
                 </div>

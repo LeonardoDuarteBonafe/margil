@@ -15,7 +15,7 @@
 
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-    <link rel="icon" href="Images/Site-Icon/site-icon.png">
+    <link rel="icon" href="Images/Site-Icon/site-icon.webp">
     <title>Margil Granitos</title>
 
     <body class="page-index">
@@ -32,13 +32,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/Sem%20t%C3%ADtulo-1-01.png">
+                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/1.webp">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/Sem%20t%C3%ADtulo-1-01.png">
+                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/1.webp">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/Sem%20t%C3%ADtulo-1-01.png">
+                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/1.webp">
                 </div>
             </div>
         </div>
@@ -53,23 +53,10 @@
                 <div class="carousel-item active">
                     <div class="box">
                         <div>
-                            <img src="Images/Index/Carousel-Top-Lower/Sem%20t%C3%ADtulo-1-01.png">
+                            <img src="Images/Index/Carousel-Top-Lower/1.webp">
                         </div>
                         <div>
-                            <img src="Images/Index/Carousel-Top-Lower/Sem%20t%C3%ADtulo-2-01.png">
-                        </div>
-                        <p>
-                            Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
-                        </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="box">
-                        <div>
-                            <img src="Images/Index/Carousel-Top-Lower/Sem%20t%C3%ADtulo-1-01.png">
-                        </div>
-                        <div>
-                            <img src="Images/Index/Carousel-Top-Lower/Sem%20t%C3%ADtulo-2-01.png">
+                            <img src="Images/Index/Carousel-Top-Lower/2.webp">
                         </div>
                         <p>
                             Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
@@ -79,10 +66,23 @@
                 <div class="carousel-item">
                     <div class="box">
                         <div>
-                            <img src="Images/Index/Carousel-Top-Lower/Sem%20t%C3%ADtulo-1-01.png">
+                            <img src="Images/Index/Carousel-Top-Lower/1.webp">
                         </div>
                         <div>
-                            <img src="Images/Index/Carousel-Top-Lower/Sem%20t%C3%ADtulo-2-01.png">
+                            <img src="Images/Index/Carousel-Top-Lower/2.webp">
+                        </div>
+                        <p>
+                            Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="box">
+                        <div>
+                            <img src="Images/Index/Carousel-Top-Lower/1.webp">
+                        </div>
+                        <div>
+                            <img src="Images/Index/Carousel-Top-Lower/2.webp">
                         </div>
                         <p>
                             Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
@@ -100,74 +100,74 @@
             <div class="swiper-container gallery-swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide gallery-banner" id="Amarelo-Capri">
-                        <img src="Images/Index/Swiper/Amarelo-Capri.png">
+                        <img src="Images/Index/Swiper/Amarelo-Capri.webp">
                         <p>Amarelo Capri</p>
                     </div>
 
                     <div class="swiper-slide gallery-banner" id="Amarelo-Maracuja">
-                        <img src="Images/Index/Swiper/Amarelo-Maracuja.png">
+                        <img src="Images/Index/Swiper/Amarelo-Maracuja.webp">
                         <p>Amarelo Maracujá</p>
                     </div>
 
                     <div class="swiper-slide gallery-banner" id="Amarelo-Ornamental-G">
-                        <img src="Images/Index/Swiper/Amarelo-Ornamental-G.png">
+                        <img src="Images/Index/Swiper/Amarelo-Ornamental-G.webp">
                         <p>Amarelo Ornamental G</p>
                     </div>
 
                     <div class="swiper-slide gallery-banner" id="Amarelo-Ornamental-VL">
-                        <img src="Images/Index/Swiper/Amarelo-Ornamental-VL.png">
+                        <img src="Images/Index/Swiper/Amarelo-Ornamental-VL.webp">
                         <p>Amarelo Ornamental VL</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Aqua-Marine-White">
-                        <img src="Images/Index/Swiper/Aqua-Marine-White.png">
+                        <img src="Images/Index/Swiper/Aqua-Marine-White.webp">
                         <p>Aqua Marine White</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Branco-Dallas">
-                        <img src="Images/Index/Swiper/Branco-Dallas.png">
+                        <img src="Images/Index/Swiper/Branco-Dallas.webp">
                         <p>Branco Dallas</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Branco-Itaunas">
-                        <img src="Images/Index/Swiper/Branco-Itaunas.png">
+                        <img src="Images/Index/Swiper/Branco-Itaunas.webp">
                         <p>Branco Itaunas</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Branco-Siena">
-                        <img src="Images/Index/Swiper/Branco-Siena.png">
+                        <img src="Images/Index/Swiper/Branco-Siena.webp">
                         <p>Branco Siena</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Cavalese-White">
-                        <img src="Images/Index/Swiper/Cavalese-White.png">
+                        <img src="Images/Index/Swiper/Cavalese-White.webp">
                         <p>Cavalese White</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Cinza-Andorinha">
-                        <img src="Images/Index/Swiper/Cinza-Andorinha.png">
+                        <img src="Images/Index/Swiper/Cinza-Andorinha.webp">
                         <p>Cinza Andorinha</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Cinza-Corumba">
-                        <img src="Images/Index/Swiper/Cinza-Corumba.png">
+                        <img src="Images/Index/Swiper/Cinza-Corumba.webp">
                         <p>Cinza Corumba</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Cinza-Corumbazinho">
-                        <img src="Images/Index/Swiper/Cinza-Corumbazinho.png">
+                        <img src="Images/Index/Swiper/Cinza-Corumbazinho.webp">
                         <p>Cinza Corumbazinho</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Preto-Sao-Rafael">
-                        <img src="Images/Index/Swiper/Preto-Sao-Rafael.png">
+                        <img src="Images/Index/Swiper/Preto-Sao-Rafael.webp">
                         <p>Preto Sao Rafael</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Preto-Via-Lactea">
-                        <img src="Images/Index/Swiper/Preto-Via-Lactea.png">
+                        <img src="Images/Index/Swiper/Preto-Via-Lactea.webp">
                         <p>Preto Via Lactea</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Travertino">
-                        <img src="Images/Index/Swiper/Travertino.png">
+                        <img src="Images/Index/Swiper/Travertino.webp">
                         <p>Travertino</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Verde-Ubatuba">
-                        <img src="Images/Index/Swiper/Verde-Ubatuba.png">
+                        <img src="Images/Index/Swiper/Verde-Ubatuba.webp">
                         <p>Verde Ubatuba</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="White-Persa">
-                        <img src="Images/Index/Swiper/White-Persa.png">
+                        <img src="Images/Index/Swiper/White-Persa.webp">
                         <p>White Persa</p>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
                     <div class="carousel-item active">
                         <div class="box">
                             <div>
-                                <img src="Images/Index/Carousel-Top-Lower/Sem%20t%C3%ADtulo-2-01.png">
+                                <img src="Images/Index/Carousel-Jazidas/1.webp">
                             </div>
                             <div>
                                 <h3>
@@ -206,7 +206,7 @@
 
                         <div class="box">
                             <div>
-                                <img src="Images/Index/Carousel-Top-Lower/Sem%20t%C3%ADtulo-2-01.png">
+                                <img src="Images/Index/Carousel-Jazidas/1.webp">
                             </div>
                             <div>
                                 <h3>
@@ -222,7 +222,7 @@
 
                         <div class="box">
                             <div>
-                                <img src="Images/Index/Carousel-Top-Lower/Sem%20t%C3%ADtulo-2-01.png">
+                                <img src="Images/Index/Carousel-Jazidas/1.webp">
                             </div>
                             <div>
                                 <h3>
