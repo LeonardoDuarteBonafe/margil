@@ -106,7 +106,7 @@
 
                     <div class="swiper-slide gallery-banner" id="Amarelo-Maracuja">
                         <img src="Images/Index/Swiper/Amarelo-Maracuja.png">
-                        <p>Amarelo Maracuja</p>
+                        <p>Amarelo Maracujá</p>
                     </div>
 
                     <div class="swiper-slide gallery-banner" id="Amarelo-Ornamental-G">

@@ -961,6 +961,10 @@ animation: mymove 5s infinite;
 }
 
 @media only screen and (max-width: 575px){
+    
+    .materiais .gallery-swiper .swiper-slide p{
+        font-size: 1.3rem !important;
+    }
 
     .page-empresa .empresa .info .text h2{
         font-size: 7rem;
@@ -1104,6 +1108,10 @@ animation: mymove 5s infinite;
         /background-color: red;
     }
 
+    .materiais .gallery-swiper .swiper-slide-active.gallery-banner img{
+        filter: brightness(75%);
+    }
+    
     .materiais .gallery-swiper .swiper-slide-active.gallery-banner p{
         opacity: 1;
         transform: translateY(-20px);
@@ -1274,6 +1282,10 @@ animation: mymove 5s infinite;
         width: 180px !important;
         height: 300px !important;
     }
+    
+    .materiais .gallery-swiper .swiper-slide p{
+        font-size: 1.6rem !important;
+    }
 
     /*.jazidas{
     display: flex;
@@ -1430,7 +1442,7 @@ animation: mymove 5s infinite;
         position: absolute;
         color: white;
         bottom: 0;
-        font-size: 2rem;
+        font-size: 1.8rem;
         /background-color: red;
     }
 
