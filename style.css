@@ -32,6 +32,7 @@ body{
     margin: 0 auto !important;
     overflow-x: hidden;
     font-family: poppinsRegular !important;
+    background-color: white !important;
 }
 
 p{
@@ -86,6 +87,7 @@ header nav{
     padding: 0 50px 0 70px;
     align-items: center;
     background: white;
+    background-color: white !Important;
     height: 150px;
 }
 
@@ -97,6 +99,7 @@ header nav .nav-list{
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: white !Important;
 }
 
 header nav .nav-list li{
