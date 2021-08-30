@@ -183,18 +183,18 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
             <div id="jazida-carousel" class="carousel vert slide" data-ride="carousel" data-interval="3000" data-pause="false">
                 <ol class="carousel-indicators">
                     <li data-target="#jazida-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#jazida-carousel" data-slide-to="1"></li>
-                    <li data-target="#jazida-carousel" data-slide-to="2"></li>
+                    <li data-target="#jazida-carousel" data-slide-to="1"></li><!--
+                    <li data-target="#jazida-carousel" data-slide-to="2"></li>-->
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="box">
                             <div>
-                                <img src="Images/Index/Carousel-Jazidas/banner1.webp">
+                                <img src="Images/Index/Carousel-Jazidas/banner3.webp">
                             </div>
                             <div>
                                 <h3>
-                                    Travertino
+                                    Acque Marine White
                                 </h3>
                                 <p>
                                     Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
@@ -210,14 +210,14 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                             </div>
                             <div>
                                 <h3>
-                                    Travertino
+                                    Preto São Rafael
                                 </h3>
                                 <p>
                                     Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div><!--
                     <div class="carousel-item">
 
                         <div class="box">
@@ -233,7 +233,7 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
