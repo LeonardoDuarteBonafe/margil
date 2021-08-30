@@ -24,45 +24,58 @@
         include 'php/navbar.html';
         ?>
 
-        <div id="top-carousel" class="carousel vert slide" data-ride="carousel" data-interval="1000" data-pause="false">
+        <div id="top-carousel" class="carousel vert slide" data-ride="carousel" data-interval="5000" data-pause="false">
             <ol class="carousel-indicators">
                 <li data-target="#top-carousel" data-slide-to="0" class="active"></li>
                 <li data-target="#top-carousel" data-slide-to="1"></li>
-                <li data-target="#top-carousel" data-slide-to="2"></li>
+                <!--<li data-target="#top-carousel" data-slide-to="2"></li>-->
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/1.webp">
+                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/banner1.webp">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/1.webp">
+                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/banner2.webp">
                 </div>
-                <div class="carousel-item">
+                <!--<div class="carousel-item">
                     <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/1.webp">
-                </div>
+                </div>-->
             </div>
         </div>
 
-        <div id="top-carousel-info" class="carousel vert slide" data-ride="carousel" data-interval="4000" data-pause="false">
+        <div id="top-carousel-info" class="carousel vert slide" data-ride="carousel" data-interval="5000" data-pause="false">
             <ol class="carousel-indicators">
                 <li data-target="#top-carousel-info" data-slide-to="0" class="active"></li>
-                <li data-target="#top-carousel-info" data-slide-to="1"></li>
-                <li data-target="#top-carousel-info" data-slide-to="2"></li>
+                <li data-target="#top-carousel-info" data-slide-to="1"></li><!--
+                <li data-target="#top-carousel-info" data-slide-to="2"></li>-->
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="box">
                         <div>
-                            <img src="Images/Index/Carousel-Top-Lower/1.webp">
+                            <img src="Images/Index/Carousel-Top-Lower/banner1-1.webp">
                         </div>
                         <div>
-                            <img src="Images/Index/Carousel-Top-Lower/2.webp">
+                            <img src="Images/Index/Carousel-Top-Lower/banner1-2.webp">
                         </div>
                         <p>
                             Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
                         </p>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="box">
+                        <div>
+                            <img src="Images/Index/Carousel-Top-Lower/banner2-1.webp">
+                        </div>
+                        <div>
+                            <img src="Images/Index/Carousel-Top-Lower/banner2-2.webp">
+                        </div>
+                        <p>
+                            Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
+                        </p>
+                    </div>
+                </div><!--
                 <div class="carousel-item">
                     <div class="box">
                         <div>
@@ -75,20 +88,7 @@
                             Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
                         </p>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="box">
-                        <div>
-                            <img src="Images/Index/Carousel-Top-Lower/1.webp">
-                        </div>
-                        <div>
-                            <img src="Images/Index/Carousel-Top-Lower/2.webp">
-                        </div>
-                        <p>
-                            Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
-                        </p>
-                    </div>
-                </div>
+                </div>-->
             </div>
         </div>
 
@@ -190,7 +190,7 @@
                     <div class="carousel-item active">
                         <div class="box">
                             <div>
-                                <img src="Images/Index/Carousel-Jazidas/1.webp">
+                                <img src="Images/Index/Carousel-Jazidas/banner1.webp">
                             </div>
                             <div>
                                 <h3>
@@ -206,7 +206,7 @@
 
                         <div class="box">
                             <div>
-                                <img src="Images/Index/Carousel-Jazidas/1.webp">
+                                <img src="Images/Index/Carousel-Jazidas/banner2.webp">
                             </div>
                             <div>
                                 <h3>
@@ -222,11 +222,11 @@
 
                         <div class="box">
                             <div>
-                                <img src="Images/Index/Carousel-Jazidas/1.webp">
+                                <img src="Images/Index/Carousel-Jazidas/banner3.webp">
                             </div>
                             <div>
                                 <h3>
-                                    Travertino
+                                    Acque Marine White
                                 </h3>
                                 <p>
                                     Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
