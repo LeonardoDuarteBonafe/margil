@@ -38,8 +38,8 @@
                     <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/banner2.webp">
                 </div>
                 <!--<div class="carousel-item">
-                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/1.webp">
-                </div>-->
+<img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/1.webp">
+</div>-->
             </div>
         </div>
 
@@ -47,7 +47,7 @@
             <ol class="carousel-indicators">
                 <li data-target="#top-carousel-info" data-slide-to="0" class="active"></li>
                 <li data-target="#top-carousel-info" data-slide-to="1"></li><!--
-                <li data-target="#top-carousel-info" data-slide-to="2"></li>-->
+<li data-target="#top-carousel-info" data-slide-to="2"></li>-->
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -76,19 +76,19 @@
                         </p>
                     </div>
                 </div><!--
-                <div class="carousel-item">
-                    <div class="box">
-                        <div>
-                            <img src="Images/Index/Carousel-Top-Lower/1.webp">
-                        </div>
-                        <div>
-                            <img src="Images/Index/Carousel-Top-Lower/2.webp">
-                        </div>
-                        <p>
-                            Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
-                        </p>
-                    </div>
-                </div>-->
+<div class="carousel-item">
+<div class="box">
+<div>
+<img src="Images/Index/Carousel-Top-Lower/1.webp">
+</div>
+<div>
+<img src="Images/Index/Carousel-Top-Lower/2.webp">
+</div>
+<p>
+Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
+</p>
+</div>
+</div>-->
             </div>
         </div>
 
@@ -239,6 +239,7 @@
         </div>
         <?php
         include 'php/form.html';
+        include 'php/maps.html';
         include 'php/footer.html';
         ?>
 

@@ -157,6 +157,7 @@
 
         <?php
         include 'php/form.html';
+        include 'php/maps.html';
         include 'php/footer.html';
         ?>
 
