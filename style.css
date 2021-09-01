@@ -208,6 +208,7 @@ header nav .mobile-menu div{
     bottom: 30px;
     right: 0;
     left: inherit;
+    display: none;
 }
 
 #top-carousel-info .carousel-inner {
@@ -427,8 +428,8 @@ header nav .mobile-menu div{
     transform: translateX(-50px);
 }
 
-#jazida-carousel .carousel-inner .carousel-item .box div:last-child h3,
-#jazida-carousel .carousel-inner .carousel-item .box div:last-child p{
+#jazida-carousel .carousel-inner .carousel-item .box div:last-child h3
+/*#jazida-carousel .carousel-inner .carousel-item .box div:last-child p*/{
     opacity: 0;
     transition: 0.5s;
     transform: translateX(50px);

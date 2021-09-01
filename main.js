@@ -159,5 +159,14 @@ window.addEventListener("DOMContentLoaded", function () {
             }
             window.location.reload(false); 
         }); 
-    } 
+    }
+
+    $('#top-carousel .carousel-indicators li').click(function(){
+        /*$('#top-carousel-info .carousel-indicators #' + $(this).attr('id')).addClass('active').siblings().removeClass('active');*/
+        var indicatorID = $(this).attr('id');
+        jQuery(function(){
+            jQuery('#top-carousel-info .carousel-indicators #' + indicatorID).click();
+        });
+    });
+
 });

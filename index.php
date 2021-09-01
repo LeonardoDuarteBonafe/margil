@@ -26,9 +26,10 @@
 
         <div id="top-carousel" class="carousel vert slide" data-ride="carousel" data-interval="5000" data-pause="false">
             <ol class="carousel-indicators">
-                <li data-target="#top-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#top-carousel" data-slide-to="1"></li>
-                <!--<li data-target="#top-carousel" data-slide-to="2"></li>-->
+                <li data-target="#top-carousel" data-slide-to="0" id="0" class="active"></li>
+                <li data-target="#top-carousel" data-slide-to="1" id="1"></li>
+                <li data-target="#top-carousel" data-slide-to="2" id="2"></li>
+                <li data-target="#top-carousel" data-slide-to="3" id="3"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -37,17 +38,21 @@
                 <div class="carousel-item">
                     <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/banner2.webp">
                 </div>
-                <!--<div class="carousel-item">
-<img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/1.webp">
-</div>-->
+                <div class="carousel-item">
+                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/banner3.webp">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/banner4.webp">
+                </div>
             </div>
         </div>
 
         <div id="top-carousel-info" class="carousel vert slide" data-ride="carousel" data-interval="5000" data-pause="false">
             <ol class="carousel-indicators">
-                <li data-target="#top-carousel-info" data-slide-to="0" class="active"></li>
-                <li data-target="#top-carousel-info" data-slide-to="1"></li><!--
-<li data-target="#top-carousel-info" data-slide-to="2"></li>-->
+                <li data-target="#top-carousel-info" data-slide-to="0" id="0" class="active"></li>
+                <li data-target="#top-carousel-info" data-slide-to="1" id="1"></li>
+                <li data-target="#top-carousel-info" data-slide-to="2" id="2"></li>
+                <li data-target="#top-carousel-info" data-slide-to="3" id="3"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -75,20 +80,33 @@
                             Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
                         </p>
                     </div>
-                </div><!--
-<div class="carousel-item">
-<div class="box">
-<div>
-<img src="Images/Index/Carousel-Top-Lower/1.webp">
-</div>
-<div>
-<img src="Images/Index/Carousel-Top-Lower/2.webp">
-</div>
-<p>
-Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
-</p>
-</div>
-</div>-->
+                </div>
+                <div class="carousel-item">
+                    <div class="box">
+                        <div>
+                            <img src="Images/Index/Carousel-Top-Lower/banner2-1.webp">
+                        </div>
+                        <div>
+                            <img src="Images/Index/Carousel-Top-Lower/banner2-2.webp">
+                        </div>
+                        <p>
+                            Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="box">
+                        <div>
+                            <img src="Images/Index/Carousel-Top-Lower/banner1-1.webp">
+                        </div>
+                        <div>
+                            <img src="Images/Index/Carousel-Top-Lower/banner1-2.webp">
+                        </div>
+                        <p>
+                            Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -180,11 +198,12 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
             <h2 class="title">
                 JAZIDAS
             </h2>
-            <div id="jazida-carousel" class="carousel vert slide" data-ride="carousel" data-interval="3000" data-pause="false">
+            <div id="jazida-carousel" class="carousel vert slide" data-ride="carousel" data-interval="5000" data-pause="false">
                 <ol class="carousel-indicators">
                     <li data-target="#jazida-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#jazida-carousel" data-slide-to="1"></li><!--
-                    <li data-target="#jazida-carousel" data-slide-to="2"></li>-->
+                    <li data-target="#jazida-carousel" data-slide-to="1"></li>
+                    <li data-target="#jazida-carousel" data-slide-to="2"></li>
+                    <li data-target="#jazida-carousel" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -197,43 +216,56 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                                     Acque Marine White
                                 </h3>
                                 <p>
-                                    Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
+                                    Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-
-                        <div class="box">
-                            <div>
-                                <img src="Images/Index/Carousel-Jazidas/banner2.webp">
-                            </div>
-                            <div>
-                                <h3>
-                                    Preto São Rafael
-                                </h3>
-                                <p>
-                                    Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
-                                </p>
-                            </div>
-                        </div>
-                    </div><!--
-                    <div class="carousel-item">
-
                         <div class="box">
                             <div>
                                 <img src="Images/Index/Carousel-Jazidas/banner3.webp">
                             </div>
                             <div>
                                 <h3>
-                                    Acque Marine White
+                                    Preto São Rafael
                                 </h3>
                                 <p>
-                                    Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
+                                    Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
                                 </p>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
+                    <div class="carousel-item">
+                        <div class="box">
+                            <div>
+                                <img src="Images/Index/Carousel-Jazidas/banner3.webp">
+                            </div>
+                            <div>
+                                <h3>
+                                    Cavalese
+                                </h3>
+                                <p>
+                                    Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="box">
+                            <div>
+                                <img src="Images/Index/Carousel-Jazidas/banner3.webp">
+                            </div>
+                            <div>
+                                <h3>
+                                    Portinari
+                                </h3>
+                                <p>
+                                    Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
