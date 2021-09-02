@@ -186,6 +186,23 @@ header nav .mobile-menu div{
     justify-content: flex-end;
 }
 
+#top-carousel-info .carousel-inner{
+    position: relative;
+}
+
+#top-carousel-info .text{
+    /background-color: beige;
+    position: absolute;
+    text-transform: uppercase;
+    margin: 0;
+    height: calc(100% - 55px);
+    right: 0;
+    bottom: 0;
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
 #top-carousel .carousel-inner .carousel-item{
     width: calc(100% - 50px);
     height: 500px;
@@ -812,7 +829,7 @@ footer .info p{
 }
 
 @media only screen and (max-width: 575px){
-    
+
     .materiais .gallery-swiper .swiper-slide p{
         font-size: 1.3rem !important;
     }
@@ -900,6 +917,13 @@ footer .info p{
         margin-top: -20px;
     }
 
+    #top-carousel-info .text{
+        position: inherit;
+        width: 90%;
+        margin: 0 5% !important;
+        text-align: center;
+    }
+
     .carousel-inner .carousel-item{
         width: calc(100% - 30px);
     }
@@ -959,7 +983,7 @@ footer .info p{
     .materiais .gallery-swiper .swiper-slide-active.gallery-banner img{
         filter: brightness(75%);
     }
-    
+
     .materiais .gallery-swiper .swiper-slide-active.gallery-banner p{
         opacity: 1;
         transform: translateY(-20px);
@@ -1124,7 +1148,7 @@ footer .info p{
         width: 180px !important;
         height: 300px !important;
     }
-    
+
     .materiais .gallery-swiper .swiper-slide p{
         font-size: 1.6rem !important;
     }
@@ -1227,6 +1251,11 @@ footer .info p{
     #top-carousel-info .carousel-inner {
         margin-top: -30px;
     }
+    
+    #top-carousel-info .text{
+        height: calc(100% - 35px);
+        width: 47%;
+    }
 
     #top-carousel-info .carousel-inner .carousel-item{
         height: 200px;
@@ -1255,6 +1284,7 @@ footer .info p{
         height: calc(100% - 35px);
         line-height: normal;
     }
+
 
     /*materiais*/
     .materiais .gallery-swiper {
