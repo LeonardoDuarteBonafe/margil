@@ -218,9 +218,9 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                                 <h3>
                                     Acque Marine White
                                 </h3>
-                                <p>
-                                    Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
-                                </p>
+                                <!--<p>
+Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
+</p>-->
                             </div>
                         </div>
                     </div>
@@ -233,9 +233,9 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                                 <h3>
                                     Preto São Rafael
                                 </h3>
-                                <p>
-                                    Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
-                                </p>
+                                <!--<p>
+Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
+</p>-->
                             </div>
                         </div>
                     </div>
@@ -248,9 +248,9 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                                 <h3>
                                     Cavalese
                                 </h3>
-                                <p>
-                                    Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
-                                </p>
+                                <!--<p>
+Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
+</p>-->
                             </div>
                         </div>
                     </div>
@@ -263,13 +263,16 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                                 <h3>
                                     Portinari
                                 </h3>
-                                <p>
-                                    Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
-                                </p>
+                                <!--<p>
+Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
+</p>-->
                             </div>
                         </div>
                     </div>
                 </div>
+                <p class="text">
+                    Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
+                </p>
             </div>
         </div>
         <?php
