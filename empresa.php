@@ -23,6 +23,7 @@
     <body class="page-empresa">
         <?php
         include 'php/navbar.html';
+        include 'php/whatsapp.html';
         ?>
 
         <div class="empresa">

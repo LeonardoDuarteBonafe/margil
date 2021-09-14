@@ -25,6 +25,7 @@
 
         <?php
         include 'php/navbar.html';
+        include 'php/whatsapp.html';
         ?>
 
         <div class="material">
@@ -88,13 +89,13 @@
                 </a>
                 <a href="Images/Materiais/Branco-Siena/close.webp" data-lightbox="galeriaBrancoSiena" data-title="Close"></a>
             </div>
-            <div class="box" id="Cavalese-White">
+            <!--<div class="box" id="Cavalese-White">
                 <a href="Images/Materiais/Cavalese-White/Cavalese-White.webp" data-lightbox="galeriaCavaleseWhite" data-title="Cavalese White">
                     <img src="Images/Materiais/Cavalese-White/Cavalese-White.webp">
                     <p>Cavalese White</p>
                 </a>
                 <a href="Images/Materiais/Cavalese-White/close.webp" data-lightbox="galeriaCavaleseWhite" data-title="Close"></a>
-            </div>
+            </div>-->
             <div class="box" id="Cinza-Andorinha">
                 <a href="Images/Materiais/Cinza-Andorinha/Cinza-Andorinha.webp" data-lightbox="galeriaCinzaAndorinha" data-title="Cinza Andorinha">
                     <img src="Images/Materiais/Cinza-Andorinha/Cinza-Andorinha.webp">

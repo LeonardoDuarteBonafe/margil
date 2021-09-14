@@ -92,6 +92,17 @@ window.addEventListener("DOMContentLoaded", function () {
         }, 150)
     });
 
+    $('.whatsapp').click(function(){
+        window.open('https://api.whatsapp.com/send?phone=5528999187924&text=Ol%C3%A1%2C+tenho+interesse+no+seu+produto!', '_blank'); 
+    });
+    
+    $('.instagram').click(function(){
+        window.open('https://www.instagram.com/margilgranitos/', '_blank'); 
+    });
+    
+    $('.facebook').click(function(){
+        window.open('https://www.facebook.com/MARGILGRANITOSEMARMORES', '_blank'); 
+    });
 
     class MobileNavbar{
         constructor(mobileMenu, navList, navLinks){

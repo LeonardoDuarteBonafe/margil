@@ -39,6 +39,26 @@ p{
     color: var(--primary-color);
 }
 
+.whatsapp-fixed {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.whatsapp-fixed img{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.whatsapp-fixed:hover img{
+    transform: scale(1.35);
+}
+
+
 header{
     position: fixed;
     z-index: 100;
@@ -67,9 +87,10 @@ header .language a:nth-child(4){
     border-right: 1px solid var(--primary-color);
 }
 
-header .language a img{
+.social-icon img{
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 
 header nav .nav-list li a{
@@ -599,6 +620,16 @@ footer .logo img{
 
 footer .info{
     text-align: center;
+}
+
+footer .info .social{
+    /background-color: red;
+    width: 100%;
+    margin: 10px 0;
+}
+
+footer .info .social a{
+    margin: 0 5px;
 }
 
 footer .info p{ 

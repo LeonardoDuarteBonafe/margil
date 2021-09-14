@@ -22,7 +22,9 @@
 
         <?php 
         include 'php/navbar.html';
+        include 'php/whatsapp.html';
         ?>
+
 
         <div id="top-carousel" class="carousel vert slide" data-ride="carousel" data-interval="5000" data-pause="false">
             <ol class="carousel-indicators">
