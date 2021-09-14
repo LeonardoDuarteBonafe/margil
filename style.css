@@ -330,7 +330,6 @@ header nav .mobile-menu div{
     transition-delay: 0.5s;
 }
 
-
 .title{
     color: var(--primary-color);
     width: 100%;
@@ -342,6 +341,53 @@ header nav .mobile-menu div{
     align-items: center;
     justify-content: center;
     margin: 0 !important;
+}
+
+.destaques{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /background-color: red;
+}
+
+.destaques .row{
+    width: 90%;
+    /background-color: green;
+    margin: 0 auto !important;
+}
+
+.destaques .row .box{
+    width: 100%;
+    max-width: 300px;
+    height: 350px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.destaques .row .box .image{
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.destaques .row .box .image img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.destaques .row .box .image:hover img{
+    transform: scale(1.2);
+}
+
+.destaques .row .box p{
+    height: 50px;
+    margin: 0;
+    font-size: 1.35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*materiais*/

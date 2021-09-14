@@ -114,6 +114,39 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                 TALENTO E COMPETÊNCIA SE TORNARAM CARACTERÍSTICAS DO NOSSO TRABALHO, ATESTADO PELOS NOSSOS CLIENTES QUE SE TORNARAM FIÉIS, DESENVOLVENDO UMA RELAÇÃO DE PARCERIA E AMIZADE. CONQUISTAMOS A CONFIANÇA DO MERCADO DEVIDO A NOSSA HISTÓRIA DE RESPONSABILIDADE E COMPETÊNCIA NOS PRODUTOS ENTREGUES AOS NOSSOS CLIENTES.
             </p>
         </div>
+        
+        <div class="destaques" id="destaques">
+            <h2 class="title">
+                DESTAQUES
+            </h2>
+            <div class="row d-flex justify-content-center">
+                <div class="box col-12 col-sm-6 col-lg-3">
+                    <div class="image">
+                        <img src="Images/Index/Destaques/Aqua-Marine-White.webp">
+                    </div>
+                    <p>Aqua Marine White</p>
+                </div>
+                <div class="box col-12 col-sm-6 col-lg-3">
+                    <div class="image">
+                        <img src="Images/Index/Destaques/Atacama.webp">
+                    </div>
+                    <p>Atacama</p>
+                </div>
+                <div class="box col-12 col-sm-6 col-lg-3">
+                    <div class="image">
+                        <img src="Images/Index/Destaques/Preto-Sao-Rafael.webp">
+                    </div>
+                    <p>Preto São Rafael</p>
+                </div>
+                <div class="box col-12 col-sm-6 col-lg-3">
+                    <div class="image">
+                        <img src="Images/Index/Destaques/Travertino.webp">
+                    </div>
+                    <p>Travertino</p>
+                </div>
+            </div>
+            
+        </div>
 
         <!--materiais-->
         <div class="materiais" id="materiais">
