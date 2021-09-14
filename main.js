@@ -1,4 +1,98 @@
 window.addEventListener("DOMContentLoaded", function () {
+
+    var language = {
+        eng: {
+            navbar: {
+                inicio: "HOME",
+                empresa: "COMPANY",
+                materiais: "MATERIALS",
+                jazidas: "DEPOSITS",
+                contato: "CONTACT",
+            },
+            top_carousel_info: {
+                text: "Talent and competence have become characteristics of our work, attested by our customers who have become loyal, developing a relationship of partnership and friendship. We have earned the market's trust due to our history of responsibility, honesty and competence in the products delivered to our customers.",
+            },
+            materiais: {
+                title: "MATERIALS",
+                produto_1: "",
+                produto_2: "",
+                produto_3: "",
+                produto_4: "",
+                produto_5: "",
+                produto_6: "",
+                produto_7: "",
+                produto_8: "",
+                produto_9: "",
+                produto_10: "",
+                produto_11: "",
+            },
+            jazidas: {
+                title: "DEPOSITS",
+                text: "CONTINUOUS INVESTMENTS IN THE QUALITY AND SAFETY OF THE EXTRACTION OF OUR MATERIAL MATERIALS, ACQUA MARINE, PRETO SÃO RAFAEL, CAVALESE AND PORTINARI, HAS BEEN KEY TO OUR GUARANTEE OF SUPPLY AND THE BASIS OF OUR SUCCESS.",
+                produto_1 : "",
+                produto_2 : "",
+                produto_3 : "",
+                produto_4 : "",
+            },
+            form: {
+                title: "CONTACT",
+                nome: "NAME",
+                email : "EMAIL",
+                telefone : "TELEPHONE",
+                empresa : "COMPANY",
+                cidade : "CITY",
+                estado : "STATE",
+                mensagem : "MESSAGE",
+                enviar: "SEND",
+            },
+            
+        },
+        pt: {
+
+        }
+    };
+    
+    var pageLanguage = localStorage.getItem("language");
+    if(pageLanguage == "eng"){
+        //navbar
+        /*$('.navbar-nav').children("a").eq(0).text(language.eng.navbar.about_us);*/
+        $('nav .nav-list').children("li").eq(0).children("a").text(language.eng.navbar.inicio);
+        $('nav .nav-list').children("li").eq(1).children("a").text(language.eng.navbar.empresa);
+        $('nav .nav-list').children("li").eq(2).children("a").text(language.eng.navbar.materiais);
+        $('nav .nav-list').children("li").eq(3).children("a").text(language.eng.navbar.jazidas);
+        $('nav .nav-list').children("li").eq(4).children("a").text(language.eng.navbar.contato);
+        
+        //top-carousel-info
+        $('#top-carousel-info .text').text(language.eng.top_carousel_info.text);
+        
+        //materiais
+        $('.materiais .title').text(language.eng.materiais.title);
+        
+        //jazidas
+        $('.jazidas .title').text(language.eng.jazidas.title);
+        $('.jazidas .text').text(language.eng.jazidas.text);
+        
+        //form
+        $('.contato .title').text(language.eng.form.title);
+        $('.form #nome').attr("placeholder", language.eng.form.nome);
+        $('.form #email').attr("placeholder", language.eng.form.email);
+        $('.form #telefone').attr("placeholder", language.eng.form.telefone);
+        $('.form #empresa').attr("placeholder", language.eng.form.empresa);
+        $('.form #cidade').attr("placeholder", language.eng.form.cidade);
+        $('.form #estado').attr("placeholder", language.eng.form.estado);
+        $('.form #mensagem').attr("placeholder", language.eng.form.mensagem);
+        $('.buttonEmail').text(language.eng.form.enviar);
+    }
+
+
+    $('.btn-language').click(function(){
+        localStorage.setItem("language", $(this).attr('id'));
+        setTimeout(function () {
+            location.reload(true);
+        }, 150)
+    });
+
+
     class MobileNavbar{
         constructor(mobileMenu, navList, navLinks){
             this.mobileMenu = document.querySelector(mobileMenu);
