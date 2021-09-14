@@ -109,7 +109,7 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                 </div>
             </div>
             <p class="text">
-                Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.
+                TALENTO E COMPETÊNCIA SE TORNARAM CARACTERÍSTICAS DO NOSSO TRABALHO, ATESTADO PELOS NOSSOS CLIENTES QUE SE TORNARAM FIÉIS, DESENVOLVENDO UMA RELAÇÃO DE PARCERIA E AMIZADE. CONQUISTAMOS A CONFIANÇA DO MERCADO DEVIDO A NOSSA HISTÓRIA DE RESPONSABILIDADE E COMPETÊNCIA NOS PRODUTOS ENTREGUES AOS NOSSOS CLIENTES.
             </p>
         </div>
 
@@ -155,10 +155,10 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                         <img src="Images/Index/Swiper/Branco-Siena.webp">
                         <p>Branco Siena</p>
                     </div>
-                    <div class="swiper-slide gallery-banner" id="Cavalese-White">
+                    <!--<div class="swiper-slide gallery-banner" id="Cavalese-White">
                         <img src="Images/Index/Swiper/Cavalese-White.webp">
                         <p>Cavalese White</p>
-                    </div>
+                    </div>-->
                     <div class="swiper-slide gallery-banner" id="Cinza-Andorinha">
                         <img src="Images/Index/Swiper/Cinza-Andorinha.webp">
                         <p>Cinza Andorinha</p>
@@ -205,14 +205,14 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                 <ol class="carousel-indicators">
                     <li data-target="#jazida-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#jazida-carousel" data-slide-to="1"></li>
-                    <li data-target="#jazida-carousel" data-slide-to="2"></li>
-                    <li data-target="#jazida-carousel" data-slide-to="3"></li>
+                    <li data-target="#jazida-carousel" data-slide-to="2"></li><!--
+                    <li data-target="#jazida-carousel" data-slide-to="3"></li>-->
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="box">
                             <div>
-                                <img src="Images/Index/Carousel-Jazidas/banner3.webp">
+                                <img src="Images/Index/Carousel-Jazidas/banner1.webp">
                             </div>
                             <div>
                                 <h3>
@@ -227,15 +227,12 @@ Investimentos contínuos, na qualidade e segurança da extração de  nossos pri
                     <div class="carousel-item">
                         <div class="box">
                             <div>
-                                <img src="Images/Index/Carousel-Jazidas/banner3.webp">
+                                <img src="Images/Index/Carousel-Jazidas/banner2.webp">
                             </div>
                             <div>
                                 <h3>
                                     Preto São Rafael
                                 </h3>
-                                <!--<p>
-Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
-</p>-->
                             </div>
                         </div>
                     </div>
@@ -246,15 +243,12 @@ Investimentos contínuos, na qualidade e segurança da extração de  nossos pri
                             </div>
                             <div>
                                 <h3>
-                                    Cavalese
+                                    Atacama
                                 </h3>
-                                <!--<p>
-Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
-</p>-->
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <!--<div class="carousel-item">
                         <div class="box">
                             <div>
                                 <img src="Images/Index/Carousel-Jazidas/banner3.webp">
@@ -263,15 +257,12 @@ Investimentos contínuos, na qualidade e segurança da extração de  nossos pri
                                 <h3>
                                     Portinari
                                 </h3>
-                                <!--<p>
-Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
-</p>-->
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
                 <p class="text">
-                    Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
+                    INVESTIMENTOS CONTÍNUOS, NA QUALIDADE E SEGURANÇA DA EXTRAÇÃO DE NOSSOS PRINCIPAIS MATERIAIS, ACQUA MARINE, PRETO SÃO RAFAEL E ATACAMA, TEM SIDO DETERMINANTE PARA NOSSA GARANTIA DE SUPRIMENTO E A BASE DO NOSSO SUCESSO.
                 </p>
             </div>
         </div>

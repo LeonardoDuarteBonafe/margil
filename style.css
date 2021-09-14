@@ -63,8 +63,13 @@ header .language a{
     color: var(--primary-color);
 }
 
-header .language a:first-child{
+header .language a:nth-child(4){
     border-right: 1px solid var(--primary-color);
+}
+
+header .language a img{
+    width: 25px;
+    height: 25px;
 }
 
 header nav .nav-list li a{
@@ -196,11 +201,12 @@ header nav .mobile-menu div{
     text-transform: uppercase;
     margin: 0;
     height: calc(100% - 55px);
-    right: 0;
+    right: 10px;
     bottom: 0;
     width: 45%;
     display: flex;
     align-items: center;
+    text-align: justify;
 }
 
 #top-carousel .carousel-inner .carousel-item{
@@ -265,7 +271,7 @@ header nav .mobile-menu div{
     font-size: 1.13rem;
     line-height: 20px;
     margin: 0 !Important;
-    text-align: left;
+    text-align: justify !important;
     text-transform: uppercase;
     height: calc(100% - 55px);
     display: flex;
@@ -450,7 +456,7 @@ header nav .mobile-menu div{
     right: 85px;
     bottom: 0;
     width: 35%;
-    text-align: right;
+    text-align: justify;
     font-size: 1.4rem;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -610,7 +616,6 @@ footer .info p{
 .page-empresa .empresa .info .text{
     width: 30%;
     margin: 0 5%;
-    text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -625,6 +630,7 @@ footer .info p{
 .page-empresa .empresa .info .text p{
     text-transform: uppercase;
     font-size: 1.1rem;
+    text-align: justify !important;
 }
 
 .page-empresa .empresa .info .images{
