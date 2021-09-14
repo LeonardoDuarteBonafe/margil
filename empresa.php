@@ -14,7 +14,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    
+
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <link rel="icon" href="Images/Site-Icon/site-icon.webp">
@@ -33,7 +33,14 @@
                 <div class="text">
                     <h2>Margil</h2> 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat malesuada dictum. Donec non urna sodales, vehicula ex id, condimentum dui. Aliquam erat volutpat. Sed ultrices suscipit augue at rutrum. Nullam mollis neque mi, sit amet pellentesque ante maximus ut. Maecenas viverra quam in erat semper finibus. In vulputate est non maximus aliquet. Nunc euismod neque non metus blandit volutpat. Ut ullamcorper nisl vel eros convallis varius. Cras ac elit rhoncus, bibendum felis condimentum, iaculis mi. Proin faucibus ipsum ligula, sit amet fringilla mi malesuada non. Ut rutrum commodo ipsum, sit amet molestie arcu fringilla ut. Donec in diam in justo bibendum tincidunt. Vivamus neque nisl, consectetur et metus ut, viverra rhoncus nunc. Nunc tincidunt vehicula dignissim.
+                        A MARGIL está presente no mercado desde 1987, localizada no pólo industrial do Mármore e Granito no Sul do Espírito Santo, localizada em Atílio Vivácqua, com a missão de atender as necessidades do mercado e de seus clientes, garantindo o mais alto padrão de qualidade e atendimento. Talento e competência se tornaram características que destacam o trabalho da empresa, atestado pelos seus clientes criando uma sólida relação de parceria, amizade e fidelidade. Com a história de responsabilidade, honestidade e competência nos produtos entregues, a confiança do mercado se fortaleceu.
+                        <br>
+                        Com uma equipe qualificada, a MARGIL tem se destacado também no setor pela garantia de entrega, produtos dentro das especificações combinadas, projetos personalizados e com os melhores acabamentos para garantir a estética e durabilidade dos materiais entregues.
+                        <br>
+                        Uma empresa completa, ofertando Chapas Brutas, Chapas Polidas e recortadas, atendendo desde as pequenas obras, até as grandes demandas.
+                        <br>
+                        Faça-nos uma visita!
+
                     </p>
                 </div>
                 <div class="images">
