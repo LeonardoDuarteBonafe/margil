@@ -53,7 +53,7 @@ window.addEventListener("DOMContentLoaded", function () {
             },
             page_materiais: {
                 jazida: {
-                    title: "OWN QARRY",
+                    title: "HIGHLIGHTS",
                 },
                 linha: {
                     title: "MATERIALS LINE",
@@ -283,7 +283,8 @@ window.addEventListener("DOMContentLoaded", function () {
             Host: "smtp.gmail.com",
             Username: 'ldbmaildealer@gmail.com',
             Password: "jzkocqnlqfdoeuhr",
-            To: `${email}`,
+            //To: `${email}`,
+            To: `adm2@margilgranitos.com.br`,
             From: 'ldbmaildealer@gmail.com',
             Subject: `${name} tem interesse no seu produto!`,
             Body: `${message}`,

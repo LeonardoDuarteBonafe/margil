@@ -30,7 +30,7 @@
         <div class="offset-navbar"></div>
         <div class="material jazida">
             <h2 class="title">
-                JAZIDA PRÓPRIA
+                DESTAQUES
             </h2>
             <div class="box" id="Aqua-Marine-White">
                 <a href="Images/Materiais/Aqua-Marine-White/Aqua-Marine-White.webp" data-lightbox="galeriaAquaMarineWhite" data-title="Aqua Marine White">
