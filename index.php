@@ -25,7 +25,7 @@
         include 'php/whatsapp.html';
         ?>
 
-
+        <!--top-carousel-->
         <div id="top-carousel" class="carousel vert slide" data-ride="carousel" data-interval="5000" data-pause="false">
             <ol class="carousel-indicators">
                 <li data-target="#top-carousel" data-slide-to="0" id="0" class="active"></li>
