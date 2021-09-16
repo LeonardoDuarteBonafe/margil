@@ -6,11 +6,14 @@ window.addEventListener("DOMContentLoaded", function () {
                 inicio: "HOME",
                 empresa: "COMPANY",
                 materiais: "MATERIALS",
-                jazidas: "DEPOSITS",
+                jazidas: "QUARRY",
                 contato: "CONTACT",
             },
             top_carousel_info: {
-                text: "Talent and competence have become characteristics of our work, attested by our customers who have become loyal, developing a relationship of partnership and friendship. We have earned the market's trust due to our history of responsibility, honesty and competence in the products delivered to our customers.",
+                text: "TALENT  AND COMPETENCE HAVE BECOME PARTS OF OUR WORK, ASSURED BY OUR CUSTOMERS WHO BECAME LOYAL, ESTABLISHING PARTNERSHIP AND FRIENDSHIP. WE HAVE EARNED THE MARKET’S TRUST DUE TO OUR HISTORY OF RESPONSIBILITY AND COMPETENCE OF THE PRODUCTS WE DELIVER TO OUR CUSTOMERS.",
+            },
+            destaques: {
+                title: "HIGHLIGHTS",  
             },
             materiais: {
                 title: "MATERIALS",
@@ -27,8 +30,8 @@ window.addEventListener("DOMContentLoaded", function () {
                 produto_11: "",
             },
             jazidas: {
-                title: "DEPOSITS",
-                text: "CONTINUOUS INVESTMENTS IN THE QUALITY AND SAFETY OF THE EXTRACTION OF OUR MATERIAL MATERIALS, ACQUA MARINE, PRETO SÃO RAFAEL, CAVALESE AND PORTINARI, HAS BEEN KEY TO OUR GUARANTEE OF SUPPLY AND THE BASIS OF OUR SUCCESS.",
+                title: "OWN QUARRY",
+                text: "CONTINUOUS INVESTMENTS IN QUALITY AND SAFETY IN THE EXTRACTION OF OUR MAIN MATERIALS, ACQUA MARINE, PRETO SÃO RAFAEL E ATACAMA, HAVE BEEN KEY FACTORS TO THE GUARANTEE OF SUPPLIES AND THE FOUNDATION OF OUR SUCCESS.",
                 produto_1 : "",
                 produto_2 : "",
                 produto_3 : "",
@@ -44,6 +47,9 @@ window.addEventListener("DOMContentLoaded", function () {
                 estado : "STATE",
                 mensagem : "MESSAGE",
                 enviar: "SEND",
+            },
+            empresa: {
+                text: "MARGIL has been in this market since 1987, in the industrial center of Marble and Granite in the South of Espírito Santo, in Atílio Vivácqua, with the goal of answering the both the market’s and our customers’ needs, guaranteeing the highest standard of quality and service. Talent and competence became characteristics that stand out in our work, assured by our customers with whom we have established solid partnerships, friendships and loyalty. With our history of responsibility, honesty and competence in our delivered products, the market’s trust grew stronger. <br> With a qualified team, MARGIL has also stood out in the field for the guarantee of delivery, products within agreed specifications, customized projects and the best finishings to assure aesthetics and lasting of the materials we deliver. <br> A wholesome company, that offers gross and polished and cut slabs, serving from smaller works to the biggest demands. <br> Visit us.",  
             },
             
         },
@@ -65,6 +71,9 @@ window.addEventListener("DOMContentLoaded", function () {
         //top-carousel-info
         $('#top-carousel-info .text').text(language.eng.top_carousel_info.text);
         
+        //destaques
+        $('.destaques .title').text(language.eng.destaques.title);
+        
         //materiais
         $('.materiais .title').text(language.eng.materiais.title);
         
@@ -82,6 +91,13 @@ window.addEventListener("DOMContentLoaded", function () {
         $('.form #estado').attr("placeholder", language.eng.form.estado);
         $('.form #mensagem').attr("placeholder", language.eng.form.mensagem);
         $('.buttonEmail').text(language.eng.form.enviar);
+        
+        //page-empresa
+        $(".page-empresa .empresa .title").text(language.eng.navbar.empresa);
+        $(".page-empresa .empresa .info .text p").html(language.eng.empresa.text);
+        
+        //page-materiais
+        $('.page-materiais .material .title').text(language.eng.navbar.materiais);
     }
 
 

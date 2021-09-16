@@ -178,6 +178,10 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                         <img src="Images/Index/Swiper/Aqua-Marine-White.webp">
                         <p>Aqua Marine White</p>
                     </div>
+                    <div class="swiper-slide gallery-banner" id="Atacama">
+                        <img src="Images/Index/Swiper/Atacama.webp">
+                        <p>Atacama</p>
+                    </div>
                     <div class="swiper-slide gallery-banner" id="Branco-Dallas">
                         <img src="Images/Index/Swiper/Branco-Dallas.webp">
                         <p>Branco Dallas</p>

@@ -68,6 +68,13 @@
                 <a href="Images/Materiais/Aqua-Marine-White/close.webp" data-lightbox="galeriaAquaMarineWhite" data-title="Close"></a>-->
                 <a href="Images/Materiais/Aqua-Marine-White/ambiente.webp" data-lightbox="galeriaAquaMarineWhite" data-title="Ambiente"></a>
             </div>
+            <div class="box" id="Atacama">
+                <a href="Images/Materiais/Atacama/Atacama.webp" data-lightbox="galeriaAtacama" data-title="Atacama">
+                    <img src="Images/Materiais/Atacama/Atacama.webp">
+                    <p>Atacama</p>
+                </a><!--
+                <a href="Images/Materiais/Branco-Dallas/close.webp" data-lightbox="galeriaBrancoDallas" data-title="Close"></a>-->
+            </div>
             <div class="box" id="Branco-Dallas">
                 <a href="Images/Materiais/Branco-Dallas/Branco-Dallas.webp" data-lightbox="galeriaBrancoDallas" data-title="Branco Dallas">
                     <img src="Images/Materiais/Branco-Dallas/Branco-Dallas.webp">
@@ -118,9 +125,9 @@
                 <a href="Images/Materiais/Cinza-Corumbazinho/close.webp" data-lightbox="galeriaCinzaCorumbazinho" data-title="Close"></a>-->
             </div>
             <div class="box" id="Preto-Sao-Rafael">
-                <a href="Images/Materiais/Preto-Sao-Rafael/Preto-Sao-Rafael.webp" data-lightbox="galeriaPretoSaoRafael" data-title="Preto Sao Rafael">
+                <a href="Images/Materiais/Preto-Sao-Rafael/Preto-Sao-Rafael.webp" data-lightbox="galeriaPretoSaoRafael" data-title="Preto São Rafael">
                     <img src="Images/Materiais/Preto-Sao-Rafael/Preto-Sao-Rafael.webp">
-                    <p>Preto Sao Rafael</p>
+                    <p>Preto São Rafael</p>
                 </a><!--
                 <a href="Images/Materiais/Preto-Sao-Rafael/close.webp" data-lightbox="galeriaPretoSaoRafael" data-title="Close"></a>-->
                 <a href="Images/Materiais/Preto-Sao-Rafael/ambiente.webp" data-lightbox="galeriaPretoSaoRafael" data-title="Ambiente"></a>
