@@ -341,6 +341,7 @@ header nav .mobile-menu div{
     align-items: center;
     justify-content: center;
     margin: 0 !important;
+    text-align: center;
 }
 
 .destaques{
@@ -786,8 +787,12 @@ footer .info p{
     }
 }
 
-.page-materiais .material{
+.page-materiais .offset-navbar{
+    
     padding-top: var(--offset-navbar);
+}
+
+.page-materiais .material{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -941,7 +946,7 @@ footer .info p{
         margin: 0 auto;
     }
 
-    .page-materiais .material{
+    .page-materiais .offset-navbar{
         padding-top: var(--offset-navbar-mobile);
     }
 }

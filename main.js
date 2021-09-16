@@ -51,6 +51,14 @@ window.addEventListener("DOMContentLoaded", function () {
             empresa: {
                 text: "MARGIL has been in this market since 1987, in the industrial center of Marble and Granite in the South of Espírito Santo, in Atílio Vivácqua, with the goal of answering the both the market’s and our customers’ needs, guaranteeing the highest standard of quality and service. Talent and competence became characteristics that stand out in our work, assured by our customers with whom we have established solid partnerships, friendships and loyalty. With our history of responsibility, honesty and competence in our delivered products, the market’s trust grew stronger. <br> With a qualified team, MARGIL has also stood out in the field for the guarantee of delivery, products within agreed specifications, customized projects and the best finishings to assure aesthetics and lasting of the materials we deliver. <br> A wholesome company, that offers gross and polished and cut slabs, serving from smaller works to the biggest demands. <br> Visit us.",  
             },
+            page_materiais: {
+                jazida: {
+                    title: "OWN QARRY",
+                },
+                linha: {
+                    title: "MATERIALS LINE",
+                },
+            },
             
         },
         pt: {
@@ -97,7 +105,9 @@ window.addEventListener("DOMContentLoaded", function () {
         $(".page-empresa .empresa .info .text p").html(language.eng.empresa.text);
         
         //page-materiais
-        $('.page-materiais .material .title').text(language.eng.navbar.materiais);
+        $('.page-materiais .jazida .title').text(language.eng.page_materiais.jazida.title);
+        
+        $('.page-materiais .linha .title').text(language.eng.page_materiais.linha.title);
     }
 
 

@@ -60,10 +60,10 @@
                 <div class="carousel-item active">
                     <div class="box">
                         <div>
-                            <img src="Images/Index/Carousel-Top-Lower/banner1-1.webp">
+                            <img src="Images/Index/Carousel-Top-Lower/banner2-1.webp">
                         </div>
                         <div>
-                            <img src="Images/Index/Carousel-Top-Lower/banner1-2.webp">
+                            <img src="Images/Index/Carousel-Top-Lower/banner2-2.webp">
                         </div>
                         <p><!--
 Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.-->
@@ -73,10 +73,10 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                 <div class="carousel-item">
                     <div class="box">
                         <div>
-                            <img src="Images/Index/Carousel-Top-Lower/banner2-1.webp">
+                            <img src="Images/Index/Carousel-Top-Lower/banner1-1.webp">
                         </div>
                         <div>
-                            <img src="Images/Index/Carousel-Top-Lower/banner2-2.webp">
+                            <img src="Images/Index/Carousel-Top-Lower/banner1-2.webp">
                         </div>
                         <p>
                             <!--Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.-->

@@ -27,10 +27,48 @@
         include 'php/navbar.html';
         include 'php/whatsapp.html';
         ?>
-
-        <div class="material">
+        <div class="offset-navbar"></div>
+        <div class="material jazida">
             <h2 class="title">
-                MATERIAIS
+                JAZIDA PRÓPRIA
+            </h2>
+            <div class="box" id="Aqua-Marine-White">
+                <a href="Images/Materiais/Aqua-Marine-White/Aqua-Marine-White.webp" data-lightbox="galeriaAquaMarineWhite" data-title="Aqua Marine White">
+                    <img src="Images/Materiais/Aqua-Marine-White/Aqua-Marine-White.webp">
+                    <p>Aqua Marine White</p>
+                </a><!--
+                <a href="Images/Materiais/Aqua-Marine-White/close.webp" data-lightbox="galeriaAquaMarineWhite" data-title="Close"></a>-->
+                <a href="Images/Materiais/Aqua-Marine-White/ambiente.webp" data-lightbox="galeriaAquaMarineWhite" data-title="Ambiente"></a>
+            </div>
+            <div class="box" id="Atacama">
+                <a href="Images/Materiais/Atacama/Atacama.webp" data-lightbox="galeriaAtacama" data-title="Atacama">
+                    <img src="Images/Materiais/Atacama/Atacama.webp">
+                    <p>Atacama</p>
+                </a><!--
+                <a href="Images/Materiais/Branco-Dallas/close.webp" data-lightbox="galeriaBrancoDallas" data-title="Close"></a>-->
+            </div>
+            <div class="box" id="Preto-Sao-Rafael">
+                <a href="Images/Materiais/Preto-Sao-Rafael/Preto-Sao-Rafael.webp" data-lightbox="galeriaPretoSaoRafael" data-title="Preto São Rafael">
+                    <img src="Images/Materiais/Preto-Sao-Rafael/Preto-Sao-Rafael.webp">
+                    <p>Preto São Rafael</p>
+                </a><!--
+                <a href="Images/Materiais/Preto-Sao-Rafael/close.webp" data-lightbox="galeriaPretoSaoRafael" data-title="Close"></a>-->
+                <a href="Images/Materiais/Preto-Sao-Rafael/ambiente.webp" data-lightbox="galeriaPretoSaoRafael" data-title="Ambiente"></a>
+            </div>
+            <div class="box" id="Travertino">
+                <a href="Images/Materiais/Travertino/Travertino.webp" data-lightbox="galeriaTravertino" data-title="Travertino">
+                    <img src="Images/Materiais/Travertino/Travertino.webp">
+                    <p>Travertino</p>
+                </a><!--
+                <a href="Images/Materiais/Travertino/close.webp" data-lightbox="galeriaTravertino" data-title="Close"></a>-->
+                <a href="Images/Materiais/Travertino/ambiente.webp" data-lightbox="galeriaTravertino" data-title="Ambiente"></a>
+            </div>
+        </div>
+
+        
+        <div class="material linha">
+            <h2 class="title">
+                LINHA DE MATERIAIS
             </h2>
             <div class="box" id="Amarelo-Capri">
                 <a href="Images/Materiais/Amarelo-Capri/Amarelo-Capri.webp" data-lightbox="galeriaAmareloCapri" data-title="Amarelo Capri">
@@ -59,21 +97,6 @@
                     <p>Amarelo Ornamental VL</p>
                 </a><!--
                 <a href="Images/Materiais/Amarelo-Ornamental-VL/close.webp" data-lightbox="galeriaAmareloOrnamentalVL" data-title="Close"></a>-->
-            </div>
-            <div class="box" id="Aqua-Marine-White">
-                <a href="Images/Materiais/Aqua-Marine-White/Aqua-Marine-White.webp" data-lightbox="galeriaAquaMarineWhite" data-title="Aqua Marine White">
-                    <img src="Images/Materiais/Aqua-Marine-White/Aqua-Marine-White.webp">
-                    <p>Aqua Marine White</p>
-                </a><!--
-                <a href="Images/Materiais/Aqua-Marine-White/close.webp" data-lightbox="galeriaAquaMarineWhite" data-title="Close"></a>-->
-                <a href="Images/Materiais/Aqua-Marine-White/ambiente.webp" data-lightbox="galeriaAquaMarineWhite" data-title="Ambiente"></a>
-            </div>
-            <div class="box" id="Atacama">
-                <a href="Images/Materiais/Atacama/Atacama.webp" data-lightbox="galeriaAtacama" data-title="Atacama">
-                    <img src="Images/Materiais/Atacama/Atacama.webp">
-                    <p>Atacama</p>
-                </a><!--
-                <a href="Images/Materiais/Branco-Dallas/close.webp" data-lightbox="galeriaBrancoDallas" data-title="Close"></a>-->
             </div>
             <div class="box" id="Branco-Dallas">
                 <a href="Images/Materiais/Branco-Dallas/Branco-Dallas.webp" data-lightbox="galeriaBrancoDallas" data-title="Branco Dallas">
@@ -124,28 +147,12 @@
                 </a><!--
                 <a href="Images/Materiais/Cinza-Corumbazinho/close.webp" data-lightbox="galeriaCinzaCorumbazinho" data-title="Close"></a>-->
             </div>
-            <div class="box" id="Preto-Sao-Rafael">
-                <a href="Images/Materiais/Preto-Sao-Rafael/Preto-Sao-Rafael.webp" data-lightbox="galeriaPretoSaoRafael" data-title="Preto São Rafael">
-                    <img src="Images/Materiais/Preto-Sao-Rafael/Preto-Sao-Rafael.webp">
-                    <p>Preto São Rafael</p>
-                </a><!--
-                <a href="Images/Materiais/Preto-Sao-Rafael/close.webp" data-lightbox="galeriaPretoSaoRafael" data-title="Close"></a>-->
-                <a href="Images/Materiais/Preto-Sao-Rafael/ambiente.webp" data-lightbox="galeriaPretoSaoRafael" data-title="Ambiente"></a>
-            </div>
             <div class="box" id="Preto-Via-Lactea">
                 <a href="Images/Materiais/Preto-Via-Lactea/Preto-Via-Lactea.webp" data-lightbox="galeriaPretoViaLactea" data-title="Preto Via Lactea">
                     <img src="Images/Materiais/Preto-Via-Lactea/Preto-Via-Lactea.webp">
                     <p>Preto Via Lactea</p>
                 </a><!--
                 <a href="Images/Materiais/Preto-Via-Lactea/close.webp" data-lightbox="galeriaPretoViaLactea" data-title="Close"></a>-->
-            </div>
-            <div class="box" id="Travertino">
-                <a href="Images/Materiais/Travertino/Travertino.webp" data-lightbox="galeriaTravertino" data-title="Travertino">
-                    <img src="Images/Materiais/Travertino/Travertino.webp">
-                    <p>Travertino</p>
-                </a><!--
-                <a href="Images/Materiais/Travertino/close.webp" data-lightbox="galeriaTravertino" data-title="Close"></a>-->
-                <a href="Images/Materiais/Travertino/ambiente.webp" data-lightbox="galeriaTravertino" data-title="Ambiente"></a>
             </div>
             <div class="box" id="Verde-Ubatuba">
                 <a href="Images/Materiais/Verde-Ubatuba/Verde-Ubatuba.webp" data-lightbox="galeriaVerdeUbatuba" data-title="Verde Ubatuba">
