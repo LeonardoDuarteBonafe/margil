@@ -117,7 +117,7 @@
                 </a><!--
                 <a href="Images/Materiais/Cinza-Corumbazinho/close.webp" data-lightbox="galeriaCinzaCorumbazinho" data-title="Close"></a>-->
             </div>
-            <div class="box" id="">
+            <div class="box" id="Preto-Sao-Rafael">
                 <a href="Images/Materiais/Preto-Sao-Rafael/Preto-Sao-Rafael.webp" data-lightbox="galeriaPretoSaoRafael" data-title="Preto Sao Rafael">
                     <img src="Images/Materiais/Preto-Sao-Rafael/Preto-Sao-Rafael.webp">
                     <p>Preto Sao Rafael</p>

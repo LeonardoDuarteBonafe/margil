@@ -120,25 +120,25 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                 DESTAQUES
             </h2>
             <div class="row d-flex justify-content-center">
-                <div class="box col-12 col-sm-6 col-lg-3">
+                <div class="box col-12 col-sm-6 col-lg-3" id="Aqua-Marine-White">
                     <div class="image">
                         <img src="Images/Index/Destaques/Aqua-Marine-White.webp">
                     </div>
                     <p>Aqua Marine White</p>
                 </div>
-                <div class="box col-12 col-sm-6 col-lg-3">
+                <div class="box col-12 col-sm-6 col-lg-3" id="Atacama">
                     <div class="image">
                         <img src="Images/Index/Destaques/Atacama.webp">
                     </div>
                     <p>Atacama</p>
                 </div>
-                <div class="box col-12 col-sm-6 col-lg-3">
+                <div class="box col-12 col-sm-6 col-lg-3" id="Preto-Sao-Rafael">
                     <div class="image">
                         <img src="Images/Index/Destaques/Preto-Sao-Rafael.webp">
                     </div>
                     <p>Preto São Rafael</p>
                 </div>
-                <div class="box col-12 col-sm-6 col-lg-3">
+                <div class="box col-12 col-sm-6 col-lg-3" id="Travertino">
                     <div class="image">
                         <img src="Images/Index/Destaques/Travertino.webp">
                     </div>

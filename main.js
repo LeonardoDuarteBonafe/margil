@@ -174,6 +174,13 @@ window.addEventListener("DOMContentLoaded", function () {
         window.location.href = "materiais.php";
 
     });
+    
+    $('.destaques .box').click(function(){
+        localStorage.setItem("nameMaterial", $(this).attr('id'));
+        localStorage.setItem("clickedMaterial", "true");
+        window.location.href = "materiais.php";
+
+    });
 
     $(function(){
         if($('body').is('.page-materiais')){
