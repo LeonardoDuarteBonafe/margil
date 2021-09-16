@@ -531,6 +531,22 @@ header nav .mobile-menu div{
     height: 60%;
 }
 
+#jazida-carousel .static-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#jazida-carousel .static-image img{
+    width: 100%;
+    height: 100%;
+}
+
 #jazida-carousel .carousel-inner .carousel-item .box div:first-child img{
     opacity: 0;
     transition: 1s;
@@ -935,7 +951,7 @@ footer .info p{
     .materiais .gallery-swiper .swiper-slide p{
         font-size: 1.3rem !important;
     }
-    
+
     #jazida-carousel .carousel-inner .carousel-item .box div:last-child h3{
         font-size: 4rem !important;   
     }
@@ -1146,6 +1162,15 @@ footer .info p{
         width: 100% !important;
         height: 100% !important;
         object-fit: cover !important;
+    }
+
+    #jazida-carousel .static-image{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        width: 100%;
+    }
+
+    #jazida-carousel .static-image img{
+        filter: opacity(0.35);
     }
 
     #jazida-carousel .carousel-inner .carousel-item .box div:last-child{

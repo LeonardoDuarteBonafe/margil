@@ -114,7 +114,7 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                 TALENTO E COMPETÊNCIA SE TORNARAM CARACTERÍSTICAS DO NOSSO TRABALHO, ATESTADO PELOS NOSSOS CLIENTES QUE SE TORNARAM FIÉIS, DESENVOLVENDO UMA RELAÇÃO DE PARCERIA E AMIZADE. CONQUISTAMOS A CONFIANÇA DO MERCADO DEVIDO A NOSSA HISTÓRIA DE RESPONSABILIDADE E COMPETÊNCIA NOS PRODUTOS ENTREGUES AOS NOSSOS CLIENTES.
             </p>
         </div>
-        
+
         <div class="destaques" id="destaques">
             <h2 class="title">
                 DESTAQUES
@@ -145,7 +145,7 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                     <p>Travertino</p>
                 </div>
             </div>
-            
+
         </div>
 
         <!--materiais-->
@@ -195,9 +195,9 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                         <p>Branco Siena</p>
                     </div>
                     <!--<div class="swiper-slide gallery-banner" id="Cavalese-White">
-                        <img src="Images/Index/Swiper/Cavalese-White.webp">
-                        <p>Cavalese White</p>
-                    </div>-->
+<img src="Images/Index/Swiper/Cavalese-White.webp">
+<p>Cavalese White</p>
+</div>-->
                     <div class="swiper-slide gallery-banner" id="Cinza-Andorinha">
                         <img src="Images/Index/Swiper/Cinza-Andorinha.webp">
                         <p>Cinza Andorinha</p>
@@ -245,13 +245,13 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                     <li data-target="#jazida-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#jazida-carousel" data-slide-to="1"></li>
                     <li data-target="#jazida-carousel" data-slide-to="2"></li><!--
-                    <li data-target="#jazida-carousel" data-slide-to="3"></li>-->
+<li data-target="#jazida-carousel" data-slide-to="3"></li>-->
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="box">
-                            <div>
-                                <img src="Images/Index/Carousel-Jazidas/banner1.webp">
+                            <div><!--
+<img src="Images/Index/Carousel-Jazidas/banner1.webp">-->
                             </div>
                             <div>
                                 <h3>
@@ -265,8 +265,8 @@ Investimentos contínuos, na qualidade e segurança da extração de  nossos pri
                     </div>
                     <div class="carousel-item">
                         <div class="box">
-                            <div>
-                                <img src="Images/Index/Carousel-Jazidas/banner2.webp">
+                            <div><!--
+<img src="Images/Index/Carousel-Jazidas/banner2.webp">-->
                             </div>
                             <div>
                                 <h3>
@@ -278,7 +278,7 @@ Investimentos contínuos, na qualidade e segurança da extração de  nossos pri
                     <div class="carousel-item">
                         <div class="box">
                             <div>
-                                <img src="Images/Index/Carousel-Jazidas/banner3.webp">
+                                <!--<img src="Images/Index/Carousel-Jazidas/banner3.webp">-->
                             </div>
                             <div>
                                 <h3>
@@ -288,17 +288,20 @@ Investimentos contínuos, na qualidade e segurança da extração de  nossos pri
                         </div>
                     </div>
                     <!--<div class="carousel-item">
-                        <div class="box">
-                            <div>
-                                <img src="Images/Index/Carousel-Jazidas/banner3.webp">
-                            </div>
-                            <div>
-                                <h3>
-                                    Portinari
-                                </h3>
-                            </div>
-                        </div>
-                    </div>-->
+<div class="box">
+<div>
+<img src="Images/Index/Carousel-Jazidas/banner3.webp">
+</div>
+<div>
+<h3>
+Portinari
+</h3>
+</div>
+</div>
+</div>-->
+                </div>
+                <div class="static-image">
+                    <img src="Images/Index/Carousel-Jazidas/banner1.webp">
                 </div>
                 <p class="text">
                     INVESTIMENTOS CONTÍNUOS, NA QUALIDADE E SEGURANÇA DA EXTRAÇÃO DE NOSSOS PRINCIPAIS MATERIAIS, ACQUA MARINE, PRETO SÃO RAFAEL E ATACAMA, TEM SIDO DETERMINANTE PARA NOSSA GARANTIA DE SUPRIMENTO E A BASE DO NOSSO SUCESSO.
