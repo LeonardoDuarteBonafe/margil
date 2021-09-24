@@ -124,14 +124,14 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                     <div class="image">
                         <img src="Images/Index/Destaques/Aqua-Marine-White.webp">
                     </div>
-                    <p>Aqua Marine White</p>
+                    <p>Acqua Marine White</p>
                 </div>
-                <div class="box col-12 col-sm-6 col-lg-3" id="Atacama">
+                <!--<div class="box col-12 col-sm-6 col-lg-3" id="Atacama">
                     <div class="image">
                         <img src="Images/Index/Destaques/Atacama.webp">
                     </div>
                     <p>Atacama</p>
-                </div>
+                </div>-->
                 <div class="box col-12 col-sm-6 col-lg-3" id="Preto-Sao-Rafael">
                     <div class="image">
                         <img src="Images/Index/Destaques/Preto-Sao-Rafael.webp">
@@ -143,6 +143,18 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                         <img src="Images/Index/Destaques/Travertino.webp">
                     </div>
                     <p>Travertino</p>
+                </div>
+                <div class="box col-12 col-sm-6 col-lg-3" id="Atacama">
+                    <div class="image">
+                        <img src="Images/Index/Destaques/Atacama.webp">
+                    </div>
+                    <p>White Atacama</p>
+                </div>
+                <div class="box col-12 col-sm-6 col-lg-3" id="White-Persa">
+                    <div class="image">
+                        <img src="Images/Index/Destaques/White-Persa.webp">
+                    </div>
+                    <p>White Persa</p>
                 </div>
             </div>
 
@@ -244,8 +256,8 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                 <ol class="carousel-indicators">
                     <li data-target="#jazida-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#jazida-carousel" data-slide-to="1"></li>
-                    <li data-target="#jazida-carousel" data-slide-to="2"></li><!--
-<li data-target="#jazida-carousel" data-slide-to="3"></li>-->
+                    <li data-target="#jazida-carousel" data-slide-to="2"></li>
+                    <li data-target="#jazida-carousel" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -287,24 +299,24 @@ Investimentos contínuos, na qualidade e segurança da extração de  nossos pri
                             </div>
                         </div>
                     </div>
-                    <!--<div class="carousel-item">
-<div class="box">
-<div>
-<img src="Images/Index/Carousel-Jazidas/banner3.webp">
-</div>
-<div>
-<h3>
-Portinari
-</h3>
-</div>
-</div>
-</div>-->
+                    <div class="carousel-item">
+                        <div class="box">
+                            <div>
+                                <img src="Images/Index/Carousel-Jazidas/banner3.webp">
+                            </div>
+                            <div>
+                                <h3>
+                                    White Persa
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="static-image">
                     <img src="Images/Index/Carousel-Jazidas/banner1.webp">
                 </div>
                 <p class="text">
-                    INVESTIMENTOS CONTÍNUOS, NA QUALIDADE E SEGURANÇA DA EXTRAÇÃO DE NOSSOS PRINCIPAIS MATERIAIS, ACQUA MARINE, PRETO SÃO RAFAEL E ATACAMA, TEM SIDO DETERMINANTE PARA NOSSA GARANTIA DE SUPRIMENTO E A BASE DO NOSSO SUCESSO.
+                    INVESTIMENTOS CONTÍNUOS, NA QUALIDADE E SEGURANÇA DA EXTRAÇÃO DE NOSSOS PRINCIPAIS MATERIAIS, ACQUA MARINE WHITE, ATACAMA WHITE, WHITE PERSA E PRETO SÃO RAFAEL, TEM SIDO DETERMINANTE PARA NOSSA GARANTIA DE SUPRIMENTO E A BASE DO NOSSO SUCESSO.
                 </p>
             </div>
         </div>

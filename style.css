@@ -344,6 +344,10 @@ header nav .mobile-menu div{
     text-align: center;
 }
 
+.page-index .destaques .row .box{
+    margin: 10px 15px !important;
+}
+
 .destaques{
     width: 100%;
     margin: 0;
