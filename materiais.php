@@ -40,6 +40,13 @@
                 <a href="Images/Materiais/Aqua-Marine-White/close.webp" data-lightbox="galeriaAquaMarineWhite" data-title="Close"></a>-->
                 <a href="Images/Materiais/Aqua-Marine-White/ambiente.webp" data-lightbox="galeriaAquaMarineWhite" data-title="Ambiente"></a>
             </div>
+            <div class="box" id="Atacama">
+                <a href="Images/Materiais/Atacama/Atacama.webp" data-lightbox="galeriaAtacama" data-title="Atacama White">
+                    <img src="Images/Materiais/Atacama/Atacama.webp">
+                    <p>Atacama White</p>
+                </a><!--
+                <a href="Images/Materiais/Branco-Dallas/close.webp" data-lightbox="galeriaBrancoDallas" data-title="Close"></a>-->
+            </div>
             <div class="box" id="Preto-Sao-Rafael">
                 <a href="Images/Materiais/Preto-Sao-Rafael/Preto-Sao-Rafael.webp" data-lightbox="galeriaPretoSaoRafael" data-title="Preto São Rafael">
                     <img src="Images/Materiais/Preto-Sao-Rafael/Preto-Sao-Rafael.webp">
@@ -55,13 +62,6 @@
                 </a><!--
                 <a href="Images/Materiais/Travertino/close.webp" data-lightbox="galeriaTravertino" data-title="Close"></a>-->
                 <a href="Images/Materiais/Travertino/ambiente.webp" data-lightbox="galeriaTravertino" data-title="Ambiente"></a>
-            </div>
-            <div class="box" id="Atacama">
-                <a href="Images/Materiais/Atacama/Atacama.webp" data-lightbox="galeriaAtacama" data-title="White Atacama">
-                    <img src="Images/Materiais/Atacama/Atacama.webp">
-                    <p>White Atacama</p>
-                </a><!--
-                <a href="Images/Materiais/Branco-Dallas/close.webp" data-lightbox="galeriaBrancoDallas" data-title="Close"></a>-->
             </div>
             <div class="box" id="White-Persa">
                 <a href="Images/Materiais/White-Persa/White-Persa.webp" data-lightbox="galeriaWhitePersa" data-title="White Persa">

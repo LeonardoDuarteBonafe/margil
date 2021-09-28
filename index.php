@@ -126,6 +126,12 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                     </div>
                     <p>Acqua Marine White</p>
                 </div>
+                <div class="box col-12 col-sm-6 col-lg-3" id="Atacama">
+                    <div class="image">
+                        <img src="Images/Index/Destaques/Atacama.webp">
+                    </div>
+                    <p>Atacama White</p>
+                </div>
                 <!--<div class="box col-12 col-sm-6 col-lg-3" id="Atacama">
                     <div class="image">
                         <img src="Images/Index/Destaques/Atacama.webp">
@@ -143,12 +149,6 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                         <img src="Images/Index/Destaques/Travertino.webp">
                     </div>
                     <p>Travertino</p>
-                </div>
-                <div class="box col-12 col-sm-6 col-lg-3" id="Atacama">
-                    <div class="image">
-                        <img src="Images/Index/Destaques/Atacama.webp">
-                    </div>
-                    <p>White Atacama</p>
                 </div>
                 <div class="box col-12 col-sm-6 col-lg-3" id="White-Persa">
                     <div class="image">
@@ -188,11 +188,11 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                     </div>
                     <div class="swiper-slide gallery-banner" id="Aqua-Marine-White">
                         <img src="Images/Index/Swiper/Aqua-Marine-White.webp">
-                        <p>Aqua Marine White</p>
+                        <p>Acqua Marine White</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Atacama">
                         <img src="Images/Index/Swiper/Atacama.webp">
-                        <p>Atacama</p>
+                        <p>Atacama White</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="Branco-Dallas">
                         <img src="Images/Index/Swiper/Branco-Dallas.webp">
@@ -294,7 +294,7 @@ Investimentos contínuos, na qualidade e segurança da extração de  nossos pri
                             </div>
                             <div>
                                 <h3>
-                                    Atacama
+                                    Atacama White
                                 </h3>
                             </div>
                         </div>
