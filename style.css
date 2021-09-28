@@ -217,7 +217,6 @@ header nav .mobile-menu div{
 }
 
 #top-carousel-info .text{
-    /background-color: beige;
     position: absolute;
     text-transform: uppercase;
     margin: 0;
@@ -352,12 +351,10 @@ header nav .mobile-menu div{
     width: 100%;
     margin: 0;
     padding: 0;
-    /background-color: red;
 }
 
 .destaques .row{
     width: 90%;
-    /background-color: green;
     margin: 0 auto !important;
 }
 
@@ -499,7 +496,6 @@ header nav .mobile-menu div{
     flex: 1 55%;
     display: flex;
     flex-direction: column;
-    /background-color: beige;
 }
 
 #jazida-carousel .carousel-inner .carousel-item .box div:last-child h3{
@@ -513,7 +509,6 @@ header nav .mobile-menu div{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    /background-color: yellow;
 }
 
 #jazida-carousel .carousel-inner .carousel-item .box div:last-child p{
@@ -532,7 +527,6 @@ header nav .mobile-menu div{
     font-size: 1.4rem;
     text-transform: uppercase;
     margin-bottom: 0;
-    /background-color: aquamarine;
     height: 60%;
 }
 
@@ -558,8 +552,7 @@ header nav .mobile-menu div{
     transform: translateX(-50px);
 }
 
-#jazida-carousel .carousel-inner .carousel-item .box div:last-child h3
-/*#jazida-carousel .carousel-inner .carousel-item .box div:last-child p*/{
+#jazida-carousel .carousel-inner .carousel-item .box div:last-child h3{
     opacity: 0;
     transition: 0.5s;
     transform: translateX(50px);
@@ -690,7 +683,6 @@ footer .info{
 }
 
 footer .info .social{
-    /background-color: red;
     width: 100%;
     margin: 10px 0;
 }

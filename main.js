@@ -69,7 +69,6 @@ window.addEventListener("DOMContentLoaded", function () {
     var pageLanguage = localStorage.getItem("language");
     if(pageLanguage == "eng"){
         //navbar
-        /*$('.navbar-nav').children("a").eq(0).text(language.eng.navbar.about_us);*/
         $('nav .nav-list').children("li").eq(0).children("a").text(language.eng.navbar.inicio);
         $('nav .nav-list').children("li").eq(1).children("a").text(language.eng.navbar.empresa);
         $('nav .nav-list').children("li").eq(2).children("a").text(language.eng.navbar.materiais);
@@ -283,7 +282,6 @@ window.addEventListener("DOMContentLoaded", function () {
             Host: "smtp.gmail.com",
             Username: 'ldbmaildealer@gmail.com',
             Password: "jzkocqnlqfdoeuhr",
-            //To: `${email}`,
             To: `adm2@margilgranitos.com.br`,
             From: 'ldbmaildealer@gmail.com',
             Subject: `${name} tem interesse no seu produto!`,
@@ -301,7 +299,6 @@ window.addEventListener("DOMContentLoaded", function () {
     }
 
     $('#top-carousel .carousel-indicators li').click(function(){
-        /*$('#top-carousel-info .carousel-indicators #' + $(this).attr('id')).addClass('active').siblings().removeClass('active');*/
         var indicatorID = $(this).attr('id');
         jQuery(function(){
             jQuery('#top-carousel-info .carousel-indicators #' + indicatorID).click();

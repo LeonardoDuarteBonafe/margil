@@ -65,8 +65,7 @@
                         <div>
                             <img src="Images/Index/Carousel-Top-Lower/banner2-2.webp">
                         </div>
-                        <p><!--
-Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.-->
+                        <p>
                         </p>
                     </div>
                 </div>
@@ -79,7 +78,6 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                             <img src="Images/Index/Carousel-Top-Lower/banner1-2.webp">
                         </div>
                         <p>
-                            <!--Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.-->
                         </p>
                     </div>
                 </div>
@@ -92,7 +90,6 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                             <img src="Images/Index/Carousel-Top-Lower/banner2-2.webp">
                         </div>
                         <p>
-                            <!--Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.-->
                         </p>
                     </div>
                 </div>
@@ -105,7 +102,6 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                             <img src="Images/Index/Carousel-Top-Lower/banner1-2.webp">
                         </div>
                         <p>
-                            <!--Talento e competência se tornaram características do nosso trabalho, atestado pelos nossos clientes que se tornaram fieis, desenvolvendo uma relação de parceria e amizade. Conquistamos a confiança do mercado devido a nossa história de responsabilidade, honestidade e competência nos produtos entregues a nossos clientes.-->
                         </p>
                     </div>
                 </div>
@@ -132,12 +128,6 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                     </div>
                     <p>Atacama White</p>
                 </div>
-                <!--<div class="box col-12 col-sm-6 col-lg-3" id="Atacama">
-                    <div class="image">
-                        <img src="Images/Index/Destaques/Atacama.webp">
-                    </div>
-                    <p>Atacama</p>
-                </div>-->
                 <div class="box col-12 col-sm-6 col-lg-3" id="Preto-Sao-Rafael">
                     <div class="image">
                         <img src="Images/Index/Destaques/Preto-Sao-Rafael.webp">
@@ -206,10 +196,6 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                         <img src="Images/Index/Swiper/Branco-Siena.webp">
                         <p>Branco Siena</p>
                     </div>
-                    <!--<div class="swiper-slide gallery-banner" id="Cavalese-White">
-<img src="Images/Index/Swiper/Cavalese-White.webp">
-<p>Cavalese White</p>
-</div>-->
                     <div class="swiper-slide gallery-banner" id="Cinza-Andorinha">
                         <img src="Images/Index/Swiper/Cinza-Andorinha.webp">
                         <p>Cinza Andorinha</p>
@@ -262,23 +248,18 @@ Talento e competência se tornaram características do nosso trabalho, atestado 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="box">
-                            <div><!--
-<img src="Images/Index/Carousel-Jazidas/banner1.webp">-->
+                            <div>
                             </div>
                             <div>
                                 <h3>
                                     Acque Marine White
                                 </h3>
-                                <!--<p>
-Investimentos contínuos, na qualidade e segurança da extração de  nossos principais materiais, Acqua Marine, Preto São Rafael, Cavalese e Portinari, tem sido determinante para nossa garantia de suprimento e a base do nosso sucesso.
-</p>-->
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="box">
-                            <div><!--
-<img src="Images/Index/Carousel-Jazidas/banner2.webp">-->
+                            <div>
                             </div>
                             <div>
                                 <h3>
@@ -290,7 +271,6 @@ Investimentos contínuos, na qualidade e segurança da extração de  nossos pri
                     <div class="carousel-item">
                         <div class="box">
                             <div>
-                                <!--<img src="Images/Index/Carousel-Jazidas/banner3.webp">-->
                             </div>
                             <div>
                                 <h3>
