@@ -195,7 +195,7 @@ header nav .mobile-menu div{
 }
 
 .carousel-indicators{
-    width: 40px;;
+    width: 40px;
     margin: 0 !important;
     display: flex;
     flex-direction: column;
@@ -203,7 +203,7 @@ header nav .mobile-menu div{
 }
 
 #top-carousel .carousel-indicators{
-    bottom: 30% !important;
+    bottom: 20% !important;
 }
 
 .carousel-inner{
@@ -455,7 +455,7 @@ header nav .mobile-menu div{
 }
 
 #jazida-carousel .carousel-indicators{
-    bottom: 200px;
+    bottom: 175px;
     right: 0;
     left: inherit;
 }
@@ -1016,7 +1016,7 @@ footer .info p{
     }
 
     #top-carousel .carousel-indicators{
-        bottom: 25% !important;
+        bottom: 15% !important;
     }
 
     #top-carousel .carousel-inner .carousel-item{
@@ -1129,7 +1129,7 @@ footer .info p{
 
     #jazida-carousel .carousel-indicators{
         background-color: transparent;
-        bottom: 125px;
+        bottom: 100px;
         right: 0;
         left: inherit;
     }
@@ -1253,7 +1253,7 @@ footer .info p{
 {
 
     #top-carousel .carousel-indicators{
-        bottom: 30% !important;
+        bottom: 22% !important;
     }
 
     #top-carousel .carousel-inner .carousel-item{
@@ -1307,7 +1307,7 @@ footer .info p{
 
     #jazida-carousel .carousel-indicators{
         background-color: transparent;
-        bottom: 150px;
+        bottom: 125px;
     }
 
     #jazida-carousel .carousel-inner .carousel-item .box div:last-child h3{
@@ -1387,7 +1387,7 @@ footer .info p{
     }
 
     #top-carousel .carousel-indicators{
-        bottom: 27% !important;
+        bottom: 20% !important;
     }
 
     #top-carousel .carousel-inner .carousel-item{
@@ -1471,7 +1471,7 @@ footer .info p{
     }
 
     #jazida-carousel .carousel-indicators{
-        bottom: 100px;
+        bottom: 110px;
     }
 
     #jazida-carousel .carousel-inner .carousel-item .box{

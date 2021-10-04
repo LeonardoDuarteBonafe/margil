@@ -44,7 +44,7 @@
                     <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/banner3.webp">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/banner4.webp">
+                    <img class="d-block mx-auto img-fluid" src="Images/Index/Carousel-Top/banner5.webp">
                 </div>
             </div>
         </div>
@@ -96,10 +96,10 @@
                 <div class="carousel-item">
                     <div class="box">
                         <div>
-                            <img src="Images/Index/Carousel-Top-Lower/banner1-1.webp">
+                            <img src="Images/Index/Carousel-Top-Lower/banner3-1.webp">
                         </div>
                         <div>
-                            <img src="Images/Index/Carousel-Top-Lower/banner1-2.webp">
+                            <img src="Images/Index/Carousel-Top-Lower/banner3-2.webp">
                         </div>
                         <p>
                         </p>
